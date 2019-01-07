@@ -4,7 +4,8 @@ register_nav_menus(
 	array(
 		'main-nav'		=> __( 'The Main Menu', 'jointswp' ),		// Main nav in header
 		'offcanvas-nav'	=> __( 'The Off-Canvas Menu', 'jointswp' ),	// Off-Canvas nav
-		'footer-links'	=> __( 'Footer Links', 'jointswp' )			// Secondary nav in footer
+		'footer-links'	=> __( 'Footer Links', 'jointswp' ), // Secondary nav in footer
+		'utility-links' => __( 'Header Utility Links')	// located to the right side of logo
 	)
 );
 
@@ -62,6 +63,26 @@ function joints_footer_links() {
 		'fallback_cb'		=> ''					// Fallback function
 	));
 } /* End Footer Menu */
+
+// The Utility Menu
+function vtas_utility_links() {
+	wp_nav_menu(array(
+		'container'			=> 'false',				// Remove nav container
+		'menu_id'			=> 'utility-links',		// Adding custom nav id
+		'menu_class'		=> 'menu',				// Adding custom nav class
+		'theme_location'	=> 'utility-links',		// Where it's located in the theme
+		'depth'				=> 0,					// Limit the depth of the nav
+		'fallback_cb'		=> ''					// Fallback function
+	));
+} /* End Utility Menu */
+
+/* Add Search Form to Utility Menu */
+add_filter('wp_nav_menu_items', 'add_search_form', 10, 2);
+function add_search_form($items, $args) {
+	if( $args->theme_location == 'utility-links' )
+	        $items .= '<li class="search"><form role="search" method="get" id="searchform" action="'.home_url( '/' ).'"><input type="search" placeholder="Search..." name="s" id="s" /><i class="fi-magnifying-glass"></i><input type="submit" id="searchsubmit" value="'. esc_attr__('Search') .'" /></form></li>';
+	        return $items;
+}
 
 // Header Fallback Menu
 function joints_main_nav_fallback() {
