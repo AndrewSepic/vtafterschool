@@ -18,8 +18,8 @@ $arial: 'Arial', sans-serif
 
 // Colors
 $lightblue: #e5ebec
-$blue: #0b3b49
-$greenblue: #007d8b
+$blue: #044266
+$teal: #20AB91
 $orange: #ffa400
 $orange-red: #ef7622
 $red: #ff3a1e
@@ -27,7 +27,7 @@ $olive: #8c8c49
 
 // Button Mixims
 =bluebutton
-  background: $greenblue
+  background: $teal
   font-size: 1.25rem
   color: #FFFFFF
   &:hover
@@ -129,7 +129,7 @@ a.button
   cursor: pointer
   &:hover
     color: #fff
-    background-color: $greenblue
+    background-color: $teal
 
 // Orange Button
 .button.orange
@@ -185,7 +185,7 @@ blockquote
     left: 0
 
 select
-  border: 1px solid $greenblue
+  border: 1px solid $teal
   color: $blue
 
 .search
@@ -193,7 +193,7 @@ select
   input
     text-indent: 32px
     border-radius: 25px
-    border-color: $greenblue
+    border-color: $teal
   .fi-magnifying-glass
     position: absolute
     left: 12px
@@ -246,5 +246,73 @@ select
 #hero
   width: 100%
   min-height: 400px
-  background: url('../images/vtas-hero.png') no-repeat top center
+  background-repeat: no-repeat
+  background-position: top center
   background-size: cover
+
+
+.need-to-know
+  background-color: #F1F5F8
+  padding: 2rem
+  .header
+    margin-bottom: 1rem
+    h5
+      float: left
+    .pagination
+      float: right
+  .post
+    .cat
+      text-transform: uppercase
+      color: $teal
+      font-weight: bold
+
+
+/*********************
+/* FOOTER
+/*********************
+
+.footer
+  margin-top: 0
+  .top-footer
+    background-color: $blue
+    color: #FFF
+    padding: 2rem
+    h4
+      color: #fff
+      float: left
+    input
+      border-radius: 50px
+      padding: .7rem
+      border: 0
+      margin-left: 2rem
+      min-width: 250px
+    span.circle
+      background: #fff
+      border-radius: 50px
+      height: 40px
+      display: block
+      width: 40px
+      float: left
+      position: relative
+      margin-left: .5rem
+      i
+        color: $blue
+        font-size: 2.2rem
+        padding-left: .5rem
+        position: absolute
+        top: -6px
+        left: 0px
+  .bottom-footer
+    margin-top: 2.5rem
+    font-size: .85rem
+    p
+      line-height: 1rem
+    .quickLinks
+      list-style-type: none
+      text-transform: uppercase
+      margin-left: 0
+      li a
+        color: $blue
+        &:hover
+          opacity: .75
+
