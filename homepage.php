@@ -7,7 +7,7 @@ get_header(); ?>
 
 	<div class="content">
 
-		<div class="inner-content grid-x grid-margin-x">
+		<div class="grid-x grid-margin-x heroWrapper">
 			<?php $hero = get_field('hero_section', 'option');
 
 				if ( $hero ): ?>
@@ -20,7 +20,10 @@ get_header(); ?>
 						</div>
 					</div>
 				<?php endif; ?>
+		</div>
 
+		<div class="grid-container">
+			<div class="inner-content grid-x grid-margin-x">
 		    <main class="main small-12 medium-12 large-12 cell" role="main">
 
 					<!-- First Section -->
@@ -72,6 +75,8 @@ get_header(); ?>
 			</main> <!-- end #main -->
 
 		</div> <!-- end #inner-content -->
+
+	</div> <!-- end grid-container -->
 
 	</div> <!-- end #content -->
 

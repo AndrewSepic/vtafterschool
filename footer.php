@@ -9,11 +9,12 @@
  ?>
 
 				<footer class="footer" role="contentinfo">
-        <!--  <div class="grid-container"> -->
+
 
             <div class="top-footer grid-x">
 
     						<div class="small-12 medium-8 large-8 cell newsletter">
+                    <img class="graphic" src="<?php echo get_template_directory_uri();?>/assets/images/vtafter_graphic_mark.svg" alt="Vermont Afterschool Newsletter"/>
                   	<h4> Join Our Newsletter</h4>
                     <input placeholder="Enter your email"></input>
     	    			</div>
@@ -23,9 +24,10 @@
                   <a href="https://twitter.com/HowardCenterVT" target="_blank"><span class="circle"><i class="fi-social-twitter"></i></span></a>
     	    			</div>
 
-    					</div> <!-- end #top-footer -->
+    				</div> <!-- end #top-footer -->
 
               <!-- Bottom Footer -->
+            <div class="grid-container">
               <div class="bottom-footer grid-x grid-margin-x grid-padding-x">
 
                   <div class="small-12 medium-6 large-6 cell">
@@ -69,7 +71,8 @@
                 </div>
 
               </div><!-- end .bottom-footer -->
-          <!--  </div>  end Grid Container -->
+
+            </div>
 
   				</footer> <!-- end .footer -->
 

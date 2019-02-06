@@ -50,7 +50,7 @@
            <div class="headerMain grid-x grid-padding-x">
 
              <div class="cell small-12 large-4">
-                <a href="<?php echo home_url(); ?>"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/vtas-templogo.png" alt="<?php echo get_bloginfo( 'name' );?>"/></a>
+                <a href="<?php echo home_url(); ?>"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/vtafter_logo.svg" alt="<?php echo get_bloginfo( 'name' );?>"/></a>
              </div>
 
              <div class="cell small-12 medium-6 large-4 tagline">
