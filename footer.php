@@ -10,21 +10,24 @@
 
 				<footer class="footer" role="contentinfo">
 
+          <div class="footerTopWrap">
+            <div class="grid-container">
+              <div class="top-footer grid-x">
 
-            <div class="top-footer grid-x">
+      						<div class="small-12 medium-8 large-8 cell newsletter">
+                      <img class="graphic" src="<?php echo get_template_directory_uri();?>/assets/images/vtafter_graphic_mark.svg" alt="Vermont Afterschool Newsletter"/>
+                    	<h4> Join Our Newsletter</h4>
+                      <input placeholder="Enter your email"></input>
+      	    			</div>
 
-    						<div class="small-12 medium-8 large-8 cell newsletter">
-                    <img class="graphic" src="<?php echo get_template_directory_uri();?>/assets/images/vtafter_graphic_mark.svg" alt="Vermont Afterschool Newsletter"/>
-                  	<h4> Join Our Newsletter</h4>
-                    <input placeholder="Enter your email"></input>
-    	    			</div>
+                  <div class="small-12 medium-4 large-4 cell latest-news">
+                    <a href="http://www.facebook.com/pages/HowardCenter/106516727431" target="_blank"><span class="circle"><i class="fi-social-facebook"></i></span></a>
+                    <a href="https://twitter.com/HowardCenterVT" target="_blank"><span class="circle"><i class="fi-social-twitter"></i></span></a>
+      	    			</div>
 
-                <div class="small-12 medium-4 large-4 cell latest-news">
-                  <a href="http://www.facebook.com/pages/HowardCenter/106516727431" target="_blank"><span class="circle"><i class="fi-social-facebook"></i></span></a>
-                  <a href="https://twitter.com/HowardCenterVT" target="_blank"><span class="circle"><i class="fi-social-twitter"></i></span></a>
-    	    			</div>
-
-    				</div> <!-- end #top-footer -->
+      				</div> <!-- end #top-footer -->
+            </div> <!-- end .grid-container -->
+          </div> <!-- end .footerTopWrap -->
 
               <!-- Bottom Footer -->
             <div class="grid-container">

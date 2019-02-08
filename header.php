@@ -47,27 +47,30 @@
 				<header class="header" role="banner">
 
           <!-- Logo & Call Buttons -->
+         <div class="grid-container">
            <div class="headerMain grid-x grid-padding-x">
 
-             <div class="cell small-12 large-4">
-                <a href="<?php echo home_url(); ?>"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/vtafter_logo.svg" alt="<?php echo get_bloginfo( 'name' );?>"/></a>
-             </div>
 
-             <div class="cell small-12 medium-6 large-4 tagline">
-               <h4 class="tagline">Tag line goes here</h4>
-             </div>
+               <div class="cell small-12 large-4">
+                  <a href="<?php echo home_url(); ?>"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/vtafter_logo.svg" alt="<?php echo get_bloginfo( 'name' );?>"/></a>
+               </div>
 
-             <div class="cell small-12 medium-6 large-4 utility">
-               <nav role="navigation">
-                   <?php vtas_utility_links(); ?>
-                 </nav>
-             </div>
+               <div class="cell small-12 medium-6 large-4 tagline">
+                 <h4 class="tagline">Tag line goes here</h4>
+               </div>
 
+               <div class="cell small-12 medium-6 large-4 utility">
+                 <nav role="navigation">
+                     <?php vtas_utility_links(); ?>
+                   </nav>
+               </div>
+
+              </div>
             </div>
 
 
-					 <!-- This navs will be applied to the topbar, above all content
-						  To see additional nav styles, visit the /parts directory -->
-					 <?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
-
+  					 <!-- This navs will be applied to the topbar, above all content
+  						  To see additional nav styles, visit the /parts directory -->
+  					 <?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
+        
 				</header> <!-- end .header -->
