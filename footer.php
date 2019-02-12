@@ -21,8 +21,8 @@
       	    			</div>
 
                   <div class="small-12 medium-4 large-4 cell latest-news">
-                    <a href="http://www.facebook.com/pages/HowardCenter/106516727431" target="_blank"><span class="circle"><i class="fi-social-facebook"></i></span></a>
-                    <a href="https://twitter.com/HowardCenterVT" target="_blank"><span class="circle"><i class="fi-social-twitter"></i></span></a>
+                    <a href="https://www.facebook.com/VTafterschool" target="_blank"><i class="fi-social-facebook"></i></a>
+                    <a href="https://twitter.com/VTAfterschool" target="_blank"><span class="circle"><i class="fi-social-twitter"></i></span></a>
       	    			</div>
 
       				</div> <!-- end #top-footer -->

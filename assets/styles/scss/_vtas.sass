@@ -22,7 +22,6 @@ $black: #f2f2f2
 $darkblue: #004368
 $bodytext: #2d2d2d
 
-
 // Button Mixims
 =bluebutton
   background: $teal
@@ -196,7 +195,7 @@ select
     position: absolute
     left: 12px
     font-size: 1.5rem
-    color: $blue
+    color: $bodytext
 
 /*********************
 /* HEADER
@@ -210,32 +209,69 @@ select
       padding: 1rem
     .tagline
       margin-top: 2rem
+      font-weight: normal
+      font-style: italic
       h4
         font-size: 1rem
         color: #999
     .utility
+      margin-top: 3rem
       #utility-links
         li a
           text-transform: uppercase
           font-weight: bold
-          color: #616161
+          color: $bodytext
+          padding: .5rem .25rem
+          font-size: .9rem
+        li#menu-item-55
+          margin-top: .55rem
         li.search
+          margin-top: .25rem
+          cursor: pointer
+          form#searchform
+            width: 41px
+            &.open
+              width: 100%
+              input
+                border: 1px solid $teal
+            input
+              border: 0
+              box-shadow: none
           input[type="submit"]
             display: none
+        i.fi-social-facebook
+          color: $blue
+          font-size: 2rem
+        span.circle
+          background: $blue
+          border-radius: 50px
+          height: 25px
+          display: block
+          width: 25px
+          float: left
+          position: relative
+          margin-top: .2rem
+          i
+            color: #fff
+            font-size: 1.35rem
+            position: absolute
+            top: 2px
+            left: 5px
 
 /* Main Nav */
-.top-bar
+.navWrap
   border-top: 1px solid #616161
-  ul#main-nav
-    li
-      a
-        color: #616161
-        font-weight: bold
-        text-transform: uppercase
-    li.donate
-      a
-        background-color: #20a993
-        color: #fff
+  .top-bar
+    ul#main-nav
+      li
+        a
+          color: #616161
+          font-weight: bold
+          text-transform: uppercase
+      li.donate
+        a
+          background-color: #20a993
+          color: #fff
 
 /*********************
 /* HOMEPAGE
@@ -314,6 +350,12 @@ select
         margin-left: 2rem
         min-width: 250px
         margin-top: 2rem
+      i.fi-social-facebook
+        float: left
+        height: 40px
+        color: #fff
+        font-size: 3rem
+        padding-top: 1rem
       span.circle
         background: #fff
         border-radius: 50px
