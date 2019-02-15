@@ -89,7 +89,7 @@ $global-padding: 1rem;
 $global-position: 1rem;
 $global-weight-normal: normal;
 $global-weight-bold: bold;
-$global-radius: 0;
+$global-radius: 20px;
 $global-menu-padding: 0.7rem 1rem;
 $global-menu-nested-margin: 1rem;
 $global-text-direction: ltr;
@@ -280,7 +280,7 @@ $breadcrumbs-item-separator-color: $medium-gray;
 // ----------
 
 $button-font-family: inherit;
-$button-padding: 0.85em 1em;
+$button-padding: 0.75rem 1.5rem;
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
 $button-background: $primary-color;
@@ -856,7 +856,7 @@ $topbar-unstack-breakpoint: medium;
 // -----------
 
 $xy-grid: true;
-$grid-container: 1200px;
+$grid-container: 1400px;
 $grid-columns: 12;
 $grid-margin-gutters: (
   small: 20px,

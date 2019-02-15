@@ -25,7 +25,7 @@ $bodytext: #2d2d2d
 // Button Mixims
 =bluebutton
   background: $teal
-  font-size: 1.25rem
+  font-size: 1.1rem
   color: #FFFFFF
   &:hover
     background: #2293a0
@@ -106,6 +106,8 @@ a, a:visited
 
 // Default Button
 a.button
+  text-transform: uppercase
+  font-weight: bold
   +bluebutton
   .arrow
     +arrow(8px, #fff)
@@ -217,6 +219,7 @@ select
     .utility
       margin-top: 3rem
       #utility-links
+        float: right
         li a
           text-transform: uppercase
           font-weight: bold
@@ -231,9 +234,11 @@ select
           form#searchform
             width: 41px
             &.open
-              width: 100%
               input
                 border: 1px solid $teal
+            &:hover
+              .fi-magnifying-glass
+                color: $blue
             input
               border: 0
               box-shadow: none
@@ -270,7 +275,7 @@ select
           text-transform: uppercase
       li.donate
         a
-          background-color: #20a993
+          background-color: $orange
           color: #fff
 
 /*********************
@@ -303,27 +308,81 @@ select
 .home-1, .home-2, .home-3
   padding: 2rem
   border-bottom: 2px solid #e2e2e2
+  text-align: center
   h2
     color: $orange
+    font-size: 2.1rem
 
-.home-1
+.firstWrapper, .secondWrapper, .thirdWrapper
+  position: relative
+  .arrow
+    position: absolute
+    height: 0
+    width: 0
+
+.firstWrapper
+  .arrow
+    bottom: 0
+    left: 0
+    border-right: 80px solid transparent
+    border-top: 80px solid transparent
+    border-bottom: 101px solid $teal
+    border-left: 60px solid $teal
+  .home-1
+    text-align: center
+    padding: 5rem 0 3rem
+    p
+      font-size: 1.2rem
+      line-height: 1.8rem
+
+.secondWrapper
+  .arrow
+    top: 0
+    right: 0
+    border-right: 60px solid $orange
+    border-top: 101px solid $orange
+    border-bottom: 101px solid transparent
+    border-left: 60px solid transparent
+  .home-2
+    padding: 7rem 0 3rem
+    background: url('../images/kids.jpg') no-repeat 17% 100%
+
+.thirdWrapper
+  .arrow
+    bottom: 0
+    left: 0
+    border-right: 80px solid transparent
+    border-top: 80px solid transparent
+    border-bottom: 101px solid $blue
+    border-left: 60px solid $blue
+  .home-3
+    padding: 7rem 0 3rem
 
 
-.ntnWrapper
+.noteWrapper
   background-color: #F1F5F8
-  .ntn
-    padding: 2rem 0
+  .noteworthy
+    padding: 2rem 0 3.5rem
     .header
       margin-bottom: 1rem
       h5
+        font-weight: normal
         float: left
       .pagination
         float: right
     .post
+      color: #192f5a
+      h2
+        font-size: 2rem
+        font-weight: 400
       .cat
         text-transform: uppercase
         color: $teal
         font-weight: bold
+      .meta
+        font-weight: 500
+        padding-bottom: 1rem
+        display: block
 
 
 /*********************
@@ -343,6 +402,8 @@ select
         color: #fff
         float: left
         padding: 2rem
+        font-size: 1.8rem
+        font-weight: 500
       input
         border-radius: 50px
         padding: .7rem
@@ -350,34 +411,42 @@ select
         margin-left: 2rem
         min-width: 250px
         margin-top: 2rem
-      i.fi-social-facebook
-        float: left
-        height: 40px
-        color: #fff
-        font-size: 3rem
-        padding-top: 1rem
-      span.circle
-        background: #fff
-        border-radius: 50px
-        height: 40px
-        display: block
-        width: 40px
-        float: left
-        position: relative
-        margin-left: .5rem
-        margin-top: 2rem
-        i
-          color: $darkblue
-          font-size: 2.2rem
-          padding-left: .5rem
-          position: absolute
-          top: -6px
-          left: 0px
+      .social
+        a
+          float: right
+          padding-right: 1rem
+        i.fi-social-facebook
+          float: left
+          height: 40px
+          color: #fff
+          font-size: 3rem
+          padding-top: 1rem
+        span.circle
+          background: #fff
+          border-radius: 50px
+          height: 40px
+          display: block
+          width: 40px
+          float: left
+          position: relative
+          margin-left: .5rem
+          margin-top: 2rem
+          i
+            color: $darkblue
+            font-size: 2.2rem
+            padding-left: .5rem
+            position: absolute
+            top: -6px
+            left: 0px
   .bottom-footer
     margin-top: 2.5rem
     font-size: .85rem
+    color: #192f5a
+    h3
+      color: $darkblue
+      font-size: 1.5rem
     p
-      line-height: 1rem
+      line-height: 1.2rem
     .quickLinks
       list-style-type: none
       text-transform: uppercase

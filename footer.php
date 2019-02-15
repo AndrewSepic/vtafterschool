@@ -20,9 +20,9 @@
                       <input placeholder="Enter your email"></input>
       	    			</div>
 
-                  <div class="small-12 medium-4 large-4 cell latest-news">
-                    <a href="https://www.facebook.com/VTafterschool" target="_blank"><i class="fi-social-facebook"></i></a>
+                  <div class="small-12 medium-4 large-3 cell social">
                     <a href="https://twitter.com/VTAfterschool" target="_blank"><span class="circle"><i class="fi-social-twitter"></i></span></a>
+                    <a href="https://www.facebook.com/VTafterschool" target="_blank"><i class="fi-social-facebook"></i></a>
       	    			</div>
 
       				</div> <!-- end #top-footer -->
@@ -48,7 +48,7 @@
                   </div>
 
                   <div class="small-12 medium-6 large-3 cell">
-                    <h2><?php the_field('third_column_title', 'option'); ?></h2>
+                    <h3><?php the_field('third_column_title', 'option'); ?></h3>
                     <ul class="quickLinks">
                       <?php
                       // check if the repeater field has rows of data
