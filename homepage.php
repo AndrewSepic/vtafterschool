@@ -34,8 +34,8 @@ get_header(); ?>
 						<div class="grid-container">
 							<div class="grid-x home-1">
 								<div class="cell small-12 medium-12 large-8 large-offset-2">
-									<h2>We Are Vermont Afterschool</h2>
-									<p>A staewide non-profit The grid defaults to the full width of the available space. To contain it use the grid-container class. The container will be centered and have a max-width equal to your $grid-container setting (1200px by default), along with padding on the left/right equal to half your $grid-container-padding setting.</p>
+									<h2><?php the_field('block_title_1', 'options');?></h2>
+									<p><?php the_field('block_content_1', 'options');?></p>
 								</div>
 							</div>
 						</div>
@@ -47,9 +47,9 @@ get_header(); ?>
 						<div class="grid-container">
 							<div class="grid-x home-2">
 								<div class="cell small-12 medium-6 large-5 large-offset-6 medium-offset-6">
-										<h2>Why We Do This Work</h2>
-										<p>A staewide non-profit The grid defaults to the full width of the available space. To contain it use the grid-container class. </p>
-										<a class="button">Impacts</a>
+										<h2><?php the_field('block_title_2', 'options');?></h2>
+										<p><?php the_field('block_content_2', 'options');?></p>
+										<a href="<?php the_field('button_link', 'options');?>"class="button"><?php the_field('button_text', 'options');?></a>
 								</div>
 							</div>
 						</div>
@@ -61,9 +61,9 @@ get_header(); ?>
 						<div class="grid-container">
 							<div class="grid-x home-3">
 								<div class="cell small-12 medium-6 large-5 large-offset-1">
-									<h2>We Rely on Colloboration</h2>
-									<p>A statewide non-profit The grid defaults to the full width of the available space. To contain it use the grid-container class. </p>
-									<a class="button orange">Join Us</a> <a class="button">Learn More</a>
+									<h2><?php the_field('block_title_3', 'options');?></h2>
+									<p><?php the_field('block_content_3', 'options');?></p>
+									<a href="<?php the_field('button_link_1', 'options');?>" class="button orange"><?php the_field('button_text_2', 'options');?></a> <a href="<?php the_field('button_link_2', 'options');?>" class="button"><?php the_field('button_text_2', 'options');?></a>
 								</div>
 								<div class="cell small-12 medium-6 large-5">
 									<img src="<?php echo get_template_directory_uri();?>/assets/images/logos.jpg" alt="collaborators"/>

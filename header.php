@@ -56,7 +56,7 @@
                </div>
 
                <div class="cell small-12 medium-6 large-4 tagline">
-                 <h4 class="tagline">Tag line goes here</h4>
+                 <h4 class="tagline">Strengthening Programs &amp; Empowering Youth</h4>
                </div>
 
                <div class="cell small-12 medium-6 large-4 utility">

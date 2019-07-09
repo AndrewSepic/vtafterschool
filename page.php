@@ -33,6 +33,39 @@ get_header(); ?>
 			    <?php get_sidebar(); ?>
 
 			</div> <!-- end #inner-content -->
+
+					<?php
+					// Test for Stories
+					if (get_field('story_title')) {
+						?>
+						<div class="stories grid-x grid-padding-x">
+
+							<div class="small-12 medium-6 large-3 cell">
+								<div class="circleWrap" style="background-image: url('<?php the_field('story_image');?>')">
+								</div>
+							</div>
+
+							<div class="small-12 medium-6 large-5 cell">
+								<div class="story">
+									<h2><?php the_field('story_title');?></h2>
+									<div class="story-text"><?php the_field('story_text');?></div>
+								</div>
+							</div>
+
+							<div class="small-12 medium-6 large-3 large-offset-1 cell">
+								<blockquote><?php the_field('story_testimonial');?>
+									<span class="author"><?php the_field('client_name');?></span>
+								</blockquote>
+
+							</div>
+
+						</div>
+						<?php
+					}
+					else {
+						// do nothing
+					}
+					?>
 		</div>
 	</div> <!-- end #content -->
 

@@ -16,8 +16,8 @@
 
       						<div class="small-12 medium-8 large-8 cell newsletter">
                       <img class="graphic" src="<?php echo get_template_directory_uri();?>/assets/images/vtafter_graphic_mark.svg" alt="Vermont Afterschool Newsletter"/>
-                    	<h4> Join Our Newsletter</h4>
-                      <input placeholder="Enter your email"></input>
+                    	<h4> Join Our Newsletter <i class="fi-arrow-right"></i></h4>
+                      <a class="button" data-open="emailsignup">Sign Up!</a>
       	    			</div>
 
                   <div class="small-12 medium-4 large-3 cell social">
@@ -78,6 +78,17 @@
             </div>
 
   				</footer> <!-- end .footer -->
+
+          <!-- Modal/reveal for signup form -->
+          <div class="reveal" id="emailsignup" data-reveal>
+            <h1>Awesome. I Have It.</h1>
+            <p class="lead">Your email that is. It is mine.</p>
+            <input>Email</input>
+            <a class="button">Submit</a>
+            <button class="close-button" data-close aria-label="Close modal" type="button">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
 
   			</div>  <!-- end .off-canvas-content -->
 
