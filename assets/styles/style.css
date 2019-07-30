@@ -7836,7 +7836,7 @@ html.is-reveal-open body {
   z-index: 1006;
   backface-visibility: hidden;
   display: none;
-  padding: 1rem;
+  padding: 2rem;
   border: 1px solid #cacaca;
   border-radius: 20px;
   background-color: #fefefe;
@@ -9678,44 +9678,60 @@ select {
   color: #2d2d2d;
 }
 
+/* line 218, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+
+/* line 223, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
 /********************* */
 /* HEADER */
 /********************* */
-/* line 223, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 234, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .header .headerMain {
-  padding: 1rem;
+  padding: 1rem 0;
 }
 
-/* line 225, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 236, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .header .headerMain .logo {
   max-width: 400px;
   padding: 1rem;
 }
 
-/* line 228, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
-.header .headerMain .tagline {
-  margin-top: 2rem;
-  font-weight: normal;
-  font-style: italic;
+/* line 239, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+.header .headerMain .tagline img {
+  padding: 2rem 1rem 1rem 0;
+  width: 80%;
 }
 
-/* line 232, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
-.header .headerMain .tagline h4 {
+/* line 242, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+.header .headerMain .tagline img h4 {
   font-size: 1rem;
   color: #999;
 }
 
-/* line 235, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 245, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .header .headerMain .utility {
   margin-top: 3rem;
 }
 
-/* line 237, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 247, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .header .headerMain .utility #utility-links {
   float: right;
 }
 
-/* line 239, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 249, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .header .headerMain .utility #utility-links li a {
   text-transform: uppercase;
   font-weight: bold;
@@ -9724,50 +9740,50 @@ select {
   font-size: .9rem;
 }
 
-/* line 245, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 255, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .header .headerMain .utility #utility-links li#menu-item-55 {
   margin-top: .55rem;
 }
 
-/* line 247, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 257, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .header .headerMain .utility #utility-links li.search {
   margin-top: .25rem;
   cursor: pointer;
 }
 
-/* line 250, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 260, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .header .headerMain .utility #utility-links li.search form#searchform {
   width: 41px;
 }
 
-/* line 253, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 263, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .header .headerMain .utility #utility-links li.search form#searchform.open input {
   border: 1px solid #14aa93;
 }
 
-/* line 256, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 266, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .header .headerMain .utility #utility-links li.search form#searchform:hover .fi-magnifying-glass {
   color: #1a6e8e;
 }
 
-/* line 258, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 268, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .header .headerMain .utility #utility-links li.search form#searchform input {
   border: 0;
   box-shadow: none;
 }
 
-/* line 261, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 271, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .header .headerMain .utility #utility-links li.search input[type="submit"] {
   display: none;
 }
 
-/* line 263, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 273, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .header .headerMain .utility #utility-links i.fi-social-facebook {
   color: #1a6e8e;
   font-size: 2rem;
 }
 
-/* line 266, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 276, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .header .headerMain .utility #utility-links span.circle {
   background: #1a6e8e;
   border-radius: 50px;
@@ -9779,7 +9795,7 @@ select {
   margin-top: .2rem;
 }
 
-/* line 275, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 285, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .header .headerMain .utility #utility-links span.circle i {
   color: #fff;
   font-size: 1.35rem;
@@ -9789,31 +9805,31 @@ select {
 }
 
 /* Main Nav */
-/* line 283, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 293, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .navWrap {
   border-top: 1px solid #D1D1D1;
 }
 
-/* line 288, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 298, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .navWrap .top-bar ul#main-nav li a {
   color: #616161;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-/* line 293, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 303, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .navWrap .top-bar ul#main-nav li.donate a {
   background-color: #df5c26;
   color: #fff;
 }
 
 /* Mega Nav */
-/* line 298, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 308, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 #mega-menu-wrap-main-nav #mega-menu-main-nav > li.mega-menu-item {
   margin: 0 20px 0 20px;
 }
 
-/* line 300, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 310, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 #mega-menu-wrap-main-nav #mega-menu-main-nav > li.mega-menu-item.donate a {
   background-color: #df5c26 !important;
   border-bottom: 4px solid #df5c26 !important;
@@ -9821,33 +9837,33 @@ select {
   color: #fff !important;
 }
 
-/* line 305, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 315, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 #mega-menu-wrap-main-nav #mega-menu-main-nav > li.mega-menu-item.donate a:hover {
   transition: all .5s ease-in-out;
   background-color: #f58024 !important;
 }
 
-/* line 308, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 318, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 #mega-menu-wrap-main-nav #mega-menu-main-nav > li.mega-menu-item > ul.mega-sub-menu {
   border-bottom: 1px solid #D1D1D1;
 }
 
-/* line 310, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 320, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 #mega-menu-wrap-main-nav #mega-menu-main-nav > li.mega-menu-item ul.mega-sub-menu li.highlight {
   background-color: #f2f2f2;
 }
 
-/* line 311, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 321, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 #mega-menu-wrap-main-nav #mega-menu-main-nav > li.mega-menu-item ul.mega-sub-menu li.highlight img {
   width: 50%;
 }
 
-/* line 316, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 326, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 #mega-menu-wrap-main-nav #mega-menu-main-nav > li.mega-menu-item li.widget_nav_menu h4.mega-block-title + div[class$="-container"] {
   position: relative;
 }
 
-/* line 318, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 328, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 #mega-menu-wrap-main-nav #mega-menu-main-nav > li.mega-menu-item li.widget_nav_menu h4.mega-block-title + div[class$="-container"]:before {
   content: "";
   width: 3rem;
@@ -9858,31 +9874,31 @@ select {
   z-index: 50;
 }
 
-/* line 326, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 336, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 #mega-menu-wrap-main-nav #mega-menu-main-nav > li.mega-menu-item ul.mega-sub-menu ul.menu {
   padding-top: 1.5rem;
 }
 
-/* line 328, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 338, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 #mega-menu-wrap-main-nav #mega-menu-main-nav > li.mega-menu-item ul.mega-sub-menu ul.menu li {
   float: left;
   display: block;
   width: 100%;
 }
 
-/* line 332, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 342, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 #mega-menu-wrap-main-nav #mega-menu-main-nav > li.mega-menu-item ul.mega-sub-menu ul.menu li a {
   color: #2d2d2d;
   font-size: 1.2rem;
   padding: .25rem 0;
 }
 
-/* line 336, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 346, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 #mega-menu-wrap-main-nav #mega-menu-main-nav > li.mega-menu-item ul.mega-sub-menu ul.menu li a:hover {
   color: #858585;
 }
 
-/* line 338, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 348, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 #mega-menu-wrap-main-nav #mega-menu-main-nav > li.mega-menu-item ul.mega-sub-menu ul.menu li.active a {
   background-color: transparent;
   color: #14aa93;
@@ -9891,12 +9907,12 @@ select {
 /********************* */
 /* HOMEPAGE */
 /********************* */
-/* line 349, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 359, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 body.home main {
   margin-bottom: 0;
 }
 
-/* line 352, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 362, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 #hero {
   width: 100%;
   position: relative;
@@ -9906,26 +9922,26 @@ body.home main {
   min-height: 500px;
 }
 
-/* line 359, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 369, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 #hero #heroTitle {
   position: absolute;
   bottom: 50px;
   color: #fff;
 }
 
-/* line 363, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 373, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 #hero #heroTitle span.intro {
   font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: 500;
 }
 
-/* line 367, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 377, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 #hero #heroTitle span.outro {
   font-size: 2rem;
 }
 
-/* line 369, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 379, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 #hero #heroTitle h4 {
   color: #fff;
   font-weight: 700;
@@ -9933,32 +9949,32 @@ body.home main {
   line-height: 3.5rem;
 }
 
-/* line 375, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 385, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .home-1, .home-2, .home-3 {
   padding: 2rem;
   border-bottom: 2px solid #e2e2e2;
   text-align: center;
 }
 
-/* line 379, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 389, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .home-1 h2, .home-2 h2, .home-3 h2 {
   color: #df5c26;
   font-size: 2.1rem;
 }
 
-/* line 383, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 393, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .firstWrapper, .secondWrapper, .thirdWrapper {
   position: relative;
 }
 
-/* line 385, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 395, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .firstWrapper .arrow, .secondWrapper .arrow, .thirdWrapper .arrow {
   position: absolute;
   height: 0;
   width: 0;
 }
 
-/* line 391, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 401, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .firstWrapper .arrow {
   bottom: 0;
   left: 0;
@@ -9968,19 +9984,19 @@ body.home main {
   border-left: 60px solid #14aa93;
 }
 
-/* line 398, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 408, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .firstWrapper .home-1 {
   text-align: center;
   padding: 5rem 0 3rem;
 }
 
-/* line 401, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 411, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .firstWrapper .home-1 p {
   font-size: 1.2rem;
   line-height: 1.8rem;
 }
 
-/* line 406, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 416, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .secondWrapper .arrow {
   top: 0;
   right: 0;
@@ -9990,13 +10006,13 @@ body.home main {
   border-left: 60px solid transparent;
 }
 
-/* line 413, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 423, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .secondWrapper .home-2 {
   padding: 7rem 0 3rem;
   background: url("../images/kids.jpg") no-repeat 17% 100%;
 }
 
-/* line 418, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 428, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .thirdWrapper .arrow {
   bottom: 0;
   left: 0;
@@ -10006,56 +10022,56 @@ body.home main {
   border-left: 60px solid #1a6e8e;
 }
 
-/* line 425, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 435, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .thirdWrapper .home-3 {
   padding: 7rem 0 3rem;
 }
 
-/* line 429, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 439, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .noteWrapper {
   background-color: #F1F5F8;
 }
 
-/* line 431, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 441, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .noteWrapper .noteworthy {
   padding: 2rem 0 3.5rem;
 }
 
-/* line 433, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 443, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .noteWrapper .noteworthy .header {
   margin-bottom: 1rem;
 }
 
-/* line 435, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 445, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .noteWrapper .noteworthy .header h5 {
   font-weight: normal;
   float: left;
 }
 
-/* line 438, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 448, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .noteWrapper .noteworthy .header .pagination {
   float: right;
 }
 
-/* line 440, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 450, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .noteWrapper .noteworthy .post {
   color: #192f5a;
 }
 
-/* line 442, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 452, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .noteWrapper .noteworthy .post h2 {
   font-size: 2rem;
   font-weight: 400;
 }
 
-/* line 445, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 455, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .noteWrapper .noteworthy .post .cat {
   text-transform: uppercase;
   color: #14aa93;
   font-weight: bold;
 }
 
-/* line 449, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 459, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .noteWrapper .noteworthy .post .meta {
   font-weight: 500;
   padding-bottom: 1rem;
@@ -10065,7 +10081,7 @@ body.home main {
 /********************* */
 /* PAGE TEMPLATE */
 /********************* */
-/* line 458, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 468, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 div.page-header {
   width: 100%;
   background: #f3f4f7;
@@ -10074,53 +10090,53 @@ div.page-header {
   margin-bottom: 2rem;
 }
 
-/* line 464, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 474, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 div.page-header .article-header {
   margin: 0 1.5rem;
 }
 
-/* line 466, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 476, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 div.page-header .article-header h1 {
   font-size: 2.5rem;
 }
 
-/* line 468, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 478, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 main {
   margin-bottom: 3rem;
 }
 
-/* line 472, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 482, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .pageIntro div.page-header {
   text-align: center;
   padding: 4.5rem;
 }
 
-/* line 475, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 485, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .pageIntro div.page-header .introText {
   width: 75%;
   margin: 1rem auto 0;
 }
 
-/* line 478, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 488, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .pageIntro div.page-header .introText p {
   font-size: 1.45rem;
   line-height: 1.95rem;
   color: #6B6B6B;
 }
 
-/* line 482, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 492, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .pageIntro div.page-header .introText .anchors a {
   font-size: 1.25rem;
 }
 
-/* line 486, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 496, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .stories.grid-x.grid-padding-x {
   background-color: #f3f3f3;
   padding: 2rem;
   margin-bottom: 4rem;
 }
 
-/* line 490, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 500, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .stories.grid-x.grid-padding-x .cell.story {
   background: #14aa93;
   padding: 3rem;
@@ -10128,12 +10144,12 @@ main {
   border-radius: 4px;
 }
 
-/* line 495, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 505, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .stories.grid-x.grid-padding-x .cell.story h2 {
   color: #fff;
 }
 
-/* line 497, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 507, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .stories.grid-x.grid-padding-x .cell.story blockquote {
   font-size: 2rem;
   /* font-weight: bold; */
@@ -10145,12 +10161,12 @@ main {
 /********************* */
 /* SINGLE TEMPLATE */
 /********************* */
-/* line 508, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 518, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 body.single h1.single-title {
   font-size: 2.25rem;
 }
 
-/* line 510, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 520, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 body.single .byline {
   background-color: #f3f4f7;
   padding: 5px 10px;
@@ -10161,13 +10177,13 @@ body.single .byline {
 /********************* */
 /* VT9to26 TEMPLATE */
 /********************* */
-/* line 522, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 532, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 body.page-template-vtot div.vtot {
   background-color: #14aa93;
   padding-top: 1rem;
 }
 
-/* line 525, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 535, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 body.page-template-vtot div.vtot img {
   width: 55%;
   margin: 0 auto;
@@ -10175,30 +10191,132 @@ body.page-template-vtot div.vtot img {
 }
 
 /********************* */
+/* CONFERENCE TEMPLATE */
+/********************* */
+/* line 545, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+body.page-template-template-conference .page-header {
+  margin-bottom: 0;
+}
+
+/* line 547, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+body.page-template-template-conference .confNav {
+  margin-bottom: 2rem;
+}
+
+/* line 549, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+body.page-template-template-conference .confNav .menu-conference-nav-container {
+  margin: 0 auto;
+  background-color: #156c8c;
+  position: relative;
+}
+
+/* line 553, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+body.page-template-template-conference .confNav .menu-conference-nav-container:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -38px;
+  border-left: 19px solid transparent;
+  border-top: 19px solid #c5d6dc;
+  border-bottom: 19px solid transparent;
+  border-right: 19px solid #c5d6dc;
+}
+
+/* line 562, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+body.page-template-template-conference .confNav .menu-conference-nav-container:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -38px;
+  border-right: 19px solid transparent;
+  border-top: 19px solid #c5d6dc;
+  border-bottom: 19px solid transparent;
+  border-left: 19px solid #c5d6dc;
+}
+
+/* line 571, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+body.page-template-template-conference .confNav .menu-conference-nav-container ul li a {
+  color: #c5d6dc;
+  text-transform: uppercase;
+}
+
+/* line 574, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+body.page-template-template-conference .confNav .menu-conference-nav-container #conference-nav.menu .active a {
+  background-color: #00a892;
+  color: #fefefe;
+}
+
+/********************* */
+/* IMPACT TEMPLATE */
+/********************* */
+/* line 582, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+body.page-template-template-impact header.article-header {
+  margin: 0 auto;
+}
+
+/* line 584, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+body.page-template-template-impact .dataPoints .cell {
+  margin-bottom: 2rem;
+}
+
+/* line 586, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+body.page-template-template-impact .bigNumber {
+  font-family: "Open Sans", sans-serif;
+  float: left;
+  width: 25%;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #b7b9bf;
+  line-height: 4rem;
+  letter-spacing: -4px;
+}
+
+/* line 595, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+body.page-template-template-impact .dataSummary {
+  width: 70%;
+  float: left;
+  text-align: left;
+  font-size: 1.15rem;
+  line-height: 1.5rem;
+  margin-left: 2.5%;
+  color: #878787;
+}
+
+/* line 605, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+body.page-template-template-impact .dataPoints .cell:nth-of-type(3) .bigNumber {
+  width: 40%;
+}
+
+/* line 607, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+body.page-template-template-impact .dataPoints .cell:nth-of-type(3) .dataSummary {
+  width: 55%;
+}
+
+/********************* */
 /* FOOTER */
 /********************* */
-/* line 534, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 615, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer {
   margin-top: 0;
 }
 
-/* line 536, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 617, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .footerTopWrap {
   background-color: #004368;
 }
 
-/* line 538, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 619, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .footerTopWrap .top-footer {
   color: #FFF;
 }
 
-/* line 540, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 621, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .footerTopWrap .top-footer img.graphic {
   height: 107px;
   float: left;
 }
 
-/* line 543, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 624, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .footerTopWrap .top-footer h4 {
   color: #fff;
   float: left;
@@ -10208,24 +10326,24 @@ body.page-template-vtot div.vtot img {
   margin-bottom: 0;
 }
 
-/* line 550, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 631, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .footerTopWrap .top-footer i.fi-arrow-right {
   font-size: 2rem;
   margin-left: 1rem;
 }
 
-/* line 553, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 634, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .footerTopWrap .top-footer .button {
   margin: 2rem 2rem 2rem 0;
 }
 
-/* line 556, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 637, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .footerTopWrap .top-footer .social a {
   float: right;
   padding-right: 1rem;
 }
 
-/* line 559, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 640, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .footerTopWrap .top-footer .social i.fi-social-facebook {
   float: left;
   height: 40px;
@@ -10234,7 +10352,7 @@ body.page-template-vtot div.vtot img {
   padding-top: 1rem;
 }
 
-/* line 565, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 646, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .footerTopWrap .top-footer .social span.circle {
   background: #fff;
   border-radius: 50px;
@@ -10247,7 +10365,7 @@ body.page-template-vtot div.vtot img {
   margin-top: 2rem;
 }
 
-/* line 575, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 656, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .footerTopWrap .top-footer .social span.circle i.fi-social-twitter {
   color: #004368;
   font-size: 2.2rem;
@@ -10257,39 +10375,230 @@ body.page-template-vtot div.vtot img {
   left: 0px;
 }
 
-/* line 582, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 663, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .bottom-footer {
   margin-top: 2.5rem;
   font-size: .85rem;
   color: #192f5a;
 }
 
-/* line 586, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 667, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .bottom-footer h3 {
   color: #004368;
   font-size: 1.5rem;
 }
 
-/* line 589, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 670, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .bottom-footer p {
   line-height: 1.2rem;
 }
 
-/* line 591, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 672, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .bottom-footer .quickLinks {
   list-style-type: none;
   text-transform: uppercase;
   margin-left: 0;
 }
 
-/* line 595, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 676, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .bottom-footer .quickLinks li a {
   color: #1a6e8e;
 }
 
-/* line 597, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 678, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .bottom-footer .quickLinks li a:hover {
   opacity: .75;
+}
+
+/* */
+/* Responsive Styles for Vermont Afterschool */
+/* */
+@media screen and (max-width: 39.99875em) {
+  /* line 17, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  .grid-container {
+    padding: 0 1.5rem;
+  }
+  /* line 22, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  .header .headerMain .logo {
+    padding: 0;
+  }
+  /* line 24, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  .header .headerMain .tagline img {
+    padding: 1rem 1rem 1rem 0;
+  }
+  /* line 26, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  .header .headerMain .utility {
+    margin-top: 0;
+  }
+  /* line 28, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  .header .headerMain .utility ul#utility-links {
+    float: left;
+  }
+  /* line 30, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  .header .navWrap .grid-container {
+    padding: 0;
+  }
+  /* line 32, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  .header .navWrap .grid-container #mega-menu-wrap-main-nav #mega-menu-main-nav > li.mega-menu-item {
+    margin: 0;
+  }
+  /* line 34, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  .header .navWrap .grid-container #mega-menu-wrap-main-nav #mega-menu-main-nav > li.mega-menu-item > ul.mega-sub-menu > li.mega-menu-row .mega-menu-column > ul.mega-sub-menu > li.mega-menu-item {
+    padding: 20px;
+  }
+  /* line 37, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  div.page-header {
+    padding: 1rem 0;
+  }
+  /* line 39, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  div.page-header .article-header {
+    margin: 1rem 0;
+  }
+  /* line 41, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  div.page-header .article-header .introText {
+    margin: 1rem;
+    width: auto;
+  }
+  /* line 44, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  div.page-header .article-header .introText p {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+  }
+  /* line 47, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  div.page-header .article-header .introText .anchors a {
+    line-height: 1.65rem;
+  }
+  /* line 49, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  div.page-header h1.page-title {
+    font-size: 2rem;
+    line-height: 2.2rem;
+  }
+  /* line 54, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  body.category article {
+    padding: .5rem 0;
+  }
+  /* line 56, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  body.category article h2 {
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+  }
+  /* line 59, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  body.category img.wp-post-image {
+    margin-bottom: 1rem;
+  }
+  /* line 63, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  body.single .page-header {
+    margin-bottom: 1rem;
+  }
+  /* line 65, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  body.single h1.single-title {
+    font-size: 1.75rem;
+    line-height: 2.2rem;
+  }
+  /* line 70, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  body.home #hero {
+    height: 350px;
+    background-position: 82% 20%;
+  }
+  /* line 73, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  body.home #hero #heroTitle {
+    position: relative;
+    margin-top: 10rem;
+  }
+  /* line 76, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  body.home #hero #heroTitle h4 {
+    font-size: 3.5rem;
+  }
+  /* line 78, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  body.home .home-1 h2, body.home .home-2 h1, body.home .home-3 h1 {
+    line-height: 2.4rem;
+    padding-bottom: 1rem;
+  }
+  /* line 81, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  body.home .secondWrapper .home-2 {
+    background-image: none;
+  }
+  /* line 83, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  .pageIntro div.page-header {
+    padding: 0;
+  }
+  /* line 88, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  body.page-template-template-impact .dataPoints .cell .bigNumber, body.page-template-template-impact .dataPoints .cell:nth-of-type(3) .bigNumber {
+    width: 100%;
+    font-size: 25.5vw;
+    padding-bottom: 1rem;
+  }
+  /* line 92, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  body.page-template-template-impact .dataPoints .cell .dataSummary, body.page-template-template-impact .dataPoints .cell:nth-of-type(3) .dataSummary {
+    width: 100%;
+    text-align: center;
+  }
+  /* line 96, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  h3.confLead {
+    font-size: 1rem;
+  }
+  /* line 99, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  ul#conference-nav li {
+    width: 100%;
+  }
+  /* line 102, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  body.page-template-vtot div.vtot {
+    padding-top: .5rem;
+    border-top: 2px solid white;
+  }
+  /* line 105, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  body.page-template-vtot div.vtot img {
+    width: 100%;
+  }
+  /* line 108, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  .stories.grid-x.grid-padding-x {
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  /* line 111, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  .stories.grid-x.grid-padding-x .cell.story {
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  /* line 115, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  .footer {
+    margin-top: 1rem;
+  }
+  /* line 119, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  .footer .footerTopWrap .top-footer h4 {
+    padding: 1rem;
+  }
+  /* line 121, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  .footer .footerTopWrap .top-footer i.fi-arrow-right::before {
+    transform: rotate(90deg);
+  }
+  /* line 123, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  .footer .footerTopWrap .top-footer img.graphic {
+    display: none;
+  }
+  /* line 125, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  .footer .footerTopWrap .top-footer a.button {
+    margin: 0 10% 0;
+    width: 80%;
+  }
+  /* line 128, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  .footer .footerTopWrap .cell.social {
+    padding: 1rem;
+  }
+  /* line 130, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  .footer .footerTopWrap .cell.social a {
+    float: left;
+  }
+  /* line 132, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  .footer .footerTopWrap .cell.social span.circle {
+    margin-top: 0;
+  }
+  /* line 134, /Users/Andrew/localhost/vtas/wp-content/themes/vtafterschool/assets/styles/scss/_responsive.sass */
+  .footer .footerTopWrap .cell.social i.fi-social-facebook {
+    padding-top: 0;
+    margin-top: -1rem;
+    display: inline-block;
+  }
 }
 
 /*# sourceMappingURL=../style.map */

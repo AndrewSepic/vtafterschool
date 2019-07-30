@@ -1,0 +1,142 @@
+/*
+/* Responsive Styles for Vermont Afterschool
+/*
+
+
+// Tablet Devices (1200px - 1440px)
+@include breakpoint(xlarge)
+
+// Tablet Devices (1024px - 1200px)
+@include breakpoint(large)
+
+// Tablet Devices (640 - 1024px)
+@include breakpoint(medium)
+
+// Mobile Devices (0 < 640px)
+@include breakpoint(small only)
+  .grid-container
+    padding: 0 1.5rem
+  // Header
+  .header
+    .headerMain
+      .logo
+        padding: 0
+      .tagline img
+        padding: 1rem 1rem 1rem 0
+      .utility
+        margin-top: 0
+        ul#utility-links
+          float: left
+    .navWrap .grid-container
+      padding: 0
+      #mega-menu-wrap-main-nav #mega-menu-main-nav > li.mega-menu-item
+        margin: 0
+        & > ul.mega-sub-menu > li.mega-menu-row .mega-menu-column > ul.mega-sub-menu > li.mega-menu-item
+          padding: 20px
+  // Page Template
+  div.page-header
+    padding: 1rem 0
+    .article-header
+      margin: 1rem 0
+      .introText
+        margin: 1rem
+        width: auto
+        p
+          font-size: 1.1rem
+          line-height: 1.4rem
+        .anchors a
+          line-height: 1.65rem
+    h1.page-title
+      font-size: 2rem
+      line-height: 2.2rem
+  // Category/Archive Template
+  body.category
+    article
+      padding: .5rem 0
+      h2
+        font-size: 1.5rem
+        line-height: 1.9rem
+    img.wp-post-image
+      margin-bottom: 1rem
+  // Single Post Template
+  body.single
+    .page-header
+      margin-bottom: 1rem
+    h1.single-title
+      font-size: 1.75rem
+      line-height: 2.2rem
+  // Homepage
+  body.home
+    #hero
+      height: 350px
+      background-position: 82% 20%
+      #heroTitle
+        position: relative
+        margin-top: 10rem
+        h4
+          font-size: 3.5rem
+    .home-1 h2, .home-2 h1, .home-3 h1
+      line-height: 2.4rem
+      padding-bottom: 1rem
+    .secondWrapper .home-2
+      background-image: none
+  .pageIntro div.page-header
+    padding: 0
+  // Impact Page
+  body.page-template-template-impact
+    .dataPoints .cell, .dataPoints .cell:nth-of-type(3)
+      .bigNumber
+        width: 100%
+        font-size: 25.5vw
+        padding-bottom: 1rem
+      .dataSummary
+        width: 100%
+        text-align: center
+  // Conference Template
+  h3.confLead
+    font-size: 1rem
+  ul#conference-nav
+    li
+      width: 100%
+  // VTOT Template
+  body.page-template-vtot div.vtot
+    padding-top: .5rem
+    border-top: 2px solid white
+    img
+      width: 100%
+  // Stories
+  .stories.grid-x.grid-padding-x
+    padding: 1rem
+    margin-top: 2rem
+    .cell.story
+      padding: 1rem
+      margin-top: 1rem
+  // Footer
+  .footer
+    margin-top: 1rem
+    .footerTopWrap
+      .top-footer
+        h4
+          padding: 1rem
+        i.fi-arrow-right::before
+          transform: rotate(90deg)
+        img.graphic
+          display: none
+        a.button
+          margin: 0 10% 0
+          width: 80%
+      .cell.social
+        padding: 1rem
+        a
+          float: left
+        span.circle
+          margin-top: 0
+        i.fi-social-facebook
+          padding-top: 0
+          margin-top: -1rem
+          display: inline-block
+
+
+
+
+

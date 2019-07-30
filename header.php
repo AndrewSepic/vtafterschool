@@ -6,7 +6,6 @@
  *
  */
 ?>
-
 <!doctype html>
 
   <html class="no-js"  <?php language_attributes(); ?>>
@@ -48,7 +47,7 @@
 
           <!-- Logo & Call Buttons -->
          <div class="grid-container">
-           <div class="headerMain grid-x grid-padding-x">
+           <div class="headerMain grid-x">
 
 
                <div class="cell small-12 large-4">
@@ -56,10 +55,10 @@
                </div>
 
                <div class="cell small-12 medium-6 large-4 tagline">
-                 <h4 class="tagline">Strengthening Programs &amp; Empowering Youth</h4>
+                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/VTA_tag.png" alt="Strengthening Programs & Empowering Youth"/>
                </div>
 
-               <div class="cell small-12 medium-6 large-4 utility">
+               <div class="cell small-12 medium-6 large-4 utility hide-for-small-only">
                  <nav role="navigation">
                      <?php vtas_utility_links(); ?>
                    </nav>

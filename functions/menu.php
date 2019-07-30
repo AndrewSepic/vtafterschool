@@ -5,7 +5,8 @@ register_nav_menus(
 		'main-nav'		=> __( 'The Main Menu', 'jointswp' ),		// Main nav in header
 		'offcanvas-nav'	=> __( 'The Off-Canvas Menu', 'jointswp' ),	// Off-Canvas nav
 		'footer-links'	=> __( 'Footer Links', 'jointswp' ), // Secondary nav in footer
-		'utility-links' => __( 'Header Utility Links')	// located to the right side of logo
+		'utility-links' => __( 'Header Utility Links'),	// located to the right side of logo
+		'conference-nav' => __( 'Navigation for Conference page')
 	)
 );
 
@@ -75,6 +76,18 @@ function vtas_utility_links() {
 		'fallback_cb'		=> ''					// Fallback function
 	));
 } /* End Utility Menu */
+
+// The Conference Nav location
+function vtas_conference_nav() {
+	wp_nav_menu(array(
+		//'container'			=> 'false',				// Remove nav container
+		'menu_id'			=> 'conference-nav',		// Adding custom nav id
+		'menu_class'		=> 'menu',				// Adding custom nav class
+		'theme_location'	=> 'conference-nav',		// Where it's located in the theme
+		'depth'				=> 0,					// Limit the depth of the nav
+		'fallback_cb'		=> ''					// Fallback function
+	));
+} /* End conference nav Menu */
 
 /* Add Search Form to Utility Menu */
 add_filter('wp_nav_menu_items', 'add_search_form', 10, 2);

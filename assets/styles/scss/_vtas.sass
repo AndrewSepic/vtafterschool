@@ -215,20 +215,30 @@ select
     font-size: 1.5rem
     color: $bodytext
 
+.google-maps
+  position: relative
+  padding-bottom: 75% // This is the aspect ratio
+  height: 0
+  overflow: hidden
+  iframe
+    position: absolute
+    top: 0
+    left: 0
+    width: 100% !important
+    height: 100% !important
 /*********************
 /* HEADER
 /*********************
 
 .header
   .headerMain
-    padding: 1rem
+    padding: 1rem 0
     .logo
       max-width: 400px
       padding: 1rem
-    .tagline
-      margin-top: 2rem
-      font-weight: normal
-      font-style: italic
+    .tagline img
+      padding: 2rem 1rem 1rem 0
+      width: 80%
       h4
         font-size: 1rem
         color: #999
@@ -526,6 +536,77 @@ body.page-template-vtot
       width: 55%
       margin: 0 auto
       display: block
+
+/*********************
+/* CONFERENCE TEMPLATE
+/*********************
+
+body.page-template-template-conference
+  .page-header
+    margin-bottom: 0
+  .confNav
+    margin-bottom: 2rem
+    .menu-conference-nav-container
+      margin: 0 auto
+      background-color: #156c8c
+      position: relative
+      &:before
+        content: ""
+        position: absolute
+        top: 0
+        left: -38px
+        border-left: 19px solid transparent
+        border-top: 19px solid #c5d6dc
+        border-bottom: 19px solid transparent
+        border-right: 19px solid #c5d6dc
+      &:after
+        content: ""
+        position: absolute
+        top: 0
+        right: -38px
+        border-right: 19px solid transparent
+        border-top: 19px solid #c5d6dc
+        border-bottom: 19px solid transparent
+        border-left: 19px solid #c5d6dc
+      ul li a
+        color: #c5d6dc
+        text-transform: uppercase
+      #conference-nav.menu .active a
+        background-color: #00a892
+        color: #fefefe
+
+/*********************
+/* IMPACT TEMPLATE
+/*********************
+body.page-template-template-impact
+  header.article-header
+    margin: 0 auto
+  .dataPoints .cell
+    margin-bottom: 2rem
+  .bigNumber
+    font-family: $headingStack
+    float: left
+    width: 25%
+    font-size: 4rem
+    font-weight: bold
+    color: #b7b9bf
+    line-height: 4rem
+    letter-spacing: -4px
+  .dataSummary
+    width: 70%
+    float: left
+    text-align: left
+    font-size: 1.15rem
+    line-height: 1.5rem
+    margin-left: 2.5%
+    color: #878787
+  // Special cases
+  .dataPoints .cell:nth-of-type(3)
+    .bigNumber
+      width: 40%
+    .dataSummary
+      width: 55%
+
 
 /*********************
 /* FOOTER

@@ -9,7 +9,7 @@ get_header(); ?>
 		<div class="page-header">
 			<div class="grid-container">
 				<div class="grid-x grid-margin-x grid-padding-x">
-					<header class="article-header">
+					<header class="article-header small-12 medium-10 medium-offset-1 large-8 large-offset-2 cell">
 						<h1 class="page-title"><?php the_title(); ?></h1>
 						<div class="introText"><?php the_field('intro_text');?></div>
 					</header> <!-- end article header -->
@@ -36,23 +36,8 @@ get_header(); ?>
 			<?php
 			// Test for Stories
 			if (get_field('story_title')) {
-				?>
-				<div class="stories grid-x grid-padding-x grid-margin-x">
-
-					<div class="small-12 medium-4 large-4 cell">
-						<img src="<?php the_field('story_image');?>"alt="Afterschool Story"/>
-					</div>
-
-					<div class="small-12 medium-8 large-7 cell story">
-							<h2><?php the_field('story_title');?></h2>
-							<div class="story-text"><?php the_field('story_text');?></div>
-							<blockquote><?php the_field('story_testimonial');?>
-								<span class="author"><?php the_field('client_name');?></span>
-							</blockquote>
-					</div>
-
-				</div>
-				<?php
+				// if stories are detected
+				get_template_part('parts/stories');
 			}
 			else {
 				// do nothing
