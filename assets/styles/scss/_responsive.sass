@@ -10,7 +10,24 @@
 @include breakpoint(large)
 
 // Tablet Devices (640 - 1024px)
-@include breakpoint(medium)
+@include breakpoint(medium only)
+  // Impact Page
+  body.page-template-template-impact
+    .dataPoints .cell
+      .bigNumber
+        width: 35%
+        font-size: 3rem
+        padding-bottom: 1rem
+      .dataSummary
+        width: 55%
+        text-align: left
+        font-size: 1rem
+        line-height: 1.3rem
+    .dataPoints .cell:nth-of-type(3)
+      .bigNumber
+        width: 50%
+      .dataSummary
+        width: 45%
 
 // Mobile Devices (0 < 640px)
 @include breakpoint(small only)
@@ -21,8 +38,8 @@
     .headerMain
       .logo
         padding: 0
-      .tagline img
-        padding: 1rem 1rem 1rem 0
+      img.tagline
+        padding-top: 2.5rem
       .utility
         margin-top: 0
         ul#utility-links
@@ -89,6 +106,7 @@
         width: 100%
         font-size: 25.5vw
         padding-bottom: 1rem
+        line-height: 25.5vw
       .dataSummary
         width: 100%
         text-align: center

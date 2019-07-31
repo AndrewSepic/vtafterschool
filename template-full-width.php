@@ -9,7 +9,7 @@ get_header(); ?>
 		<div class="page-header">
 			<div class="grid-container">
 				<div class="grid-x grid-margin-x grid-padding-x">
-					<header class="article-header">
+					<header class="article-header small-12 medium-12 large-12 cell">
 						<h1 class="page-title"><?php the_title(); ?></h1>
 					</header> <!-- end article header -->
 				</div>

@@ -8,7 +8,7 @@ get_header(); ?>
 	<div class="content pageIntro">
 		<div class="page-header">
 			<div class="grid-container">
-				<div class="grid-x grid-margin-x grid-padding-x dataPoints">
+				<div class="grid-x dataPoints">
 					<div class="small-12 medium-12 large-12 cell">
 						<header class="article-header">
 							<h2 class="page-title"><?php the_field('impactHeader'); ?></h2>

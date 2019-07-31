@@ -23,13 +23,15 @@ $darkblue: #004368
 $bodytext: #2d2d2d
 
 // Button Mixims
-=bluebutton
+=button
   background: $teal
   font-size: 1.1rem
   color: #FFFFFF
+  border: 2px solid $teal
   &:hover
-    background: #2293a0
-    color: #fff
+    background: #fff
+    border: 2px solid $teal
+    color: $teal
 
 =orangebutton
   background: $orange
@@ -116,11 +118,10 @@ a, a:visited
 a.button
   text-transform: uppercase
   font-weight: bold
-  +bluebutton
+  +button
   .arrow
     +arrow(8px, #fff)
   &:hover
-    color: #fff
     .arrow
       +arrow(8px, $blue)
 
@@ -226,6 +227,9 @@ select
     left: 0
     width: 100% !important
     height: 100% !important
+
+.zc-live-primary-btn, .zc-formbutton, #ze_popups .ze_botpart input:first-child
+  background-color: $blue
 /*********************
 /* HEADER
 /*********************
@@ -236,9 +240,9 @@ select
     .logo
       max-width: 400px
       padding: 1rem
-    .tagline img
-      padding: 2rem 1rem 1rem 0
-      width: 80%
+    img.tagline
+      padding-top: 2.5rem
+      width: 220px
       h4
         font-size: 1rem
         color: #999
@@ -273,6 +277,8 @@ select
         i.fi-social-facebook
           color: $blue
           font-size: 2rem
+          &:hover
+            opacity: .75
         span.circle
           background: $blue
           border-radius: 50px
@@ -288,6 +294,8 @@ select
             position: absolute
             top: 2px
             left: 5px
+          &:hover
+            opacity: .75
 
 /* Main Nav */
 .navWrap
@@ -339,6 +347,7 @@ select
       float: left
       display: block
       width: 100%
+      margin: 0.25rem 0
       a
         color: $bodytext
         font-size: 1.2rem
@@ -569,8 +578,10 @@ body.page-template-template-conference
         border-bottom: 19px solid transparent
         border-left: 19px solid #c5d6dc
       ul li a
-        color: #c5d6dc
+        color: #fff
         text-transform: uppercase
+        &:hover
+          color: #c5d6dc
       #conference-nav.menu .active a
         background-color: #00a892
         color: #fefefe
@@ -618,6 +629,11 @@ body.page-template-template-impact
     background-color: $darkblue
     .top-footer
       color: #FFF
+      .newsletter:hover
+        i.fi-arrow-right:before
+          padding-left: 1rem
+        i.fi-arrow-right
+          margin-right: 0
       img.graphic
         height: 107px
         float: left
@@ -631,6 +647,7 @@ body.page-template-template-impact
       i.fi-arrow-right
         font-size: 2rem
         margin-left: 1rem
+        margin-right: 1rem
       .button
         margin: 2rem 2rem 2rem 0
       .social
@@ -643,6 +660,8 @@ body.page-template-template-impact
           color: #fff
           font-size: 3rem
           padding-top: 1rem
+          &:hover
+            opacity: .75
         span.circle
           background: #fff
           border-radius: 50px
@@ -660,6 +679,9 @@ body.page-template-template-impact
             position: absolute
             top: -6px
             left: 0px
+          &:hover
+            opacity: .75
+
   .bottom-footer
     margin-top: 2.5rem
     font-size: .85rem

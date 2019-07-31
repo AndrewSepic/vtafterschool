@@ -11,7 +11,7 @@ get_header(); ?>
 		<div class="page-header">
 			<div class="grid-container">
 				<div class="grid-x grid-margin-x grid-padding-x">
-					<header class="small-12 medium-10 medium-offset-1 large-8 large-offset-2 cell">
+					<header class="small-12 medium-12 large-12 cell">
 						<h1 class="page-title"><?php the_title(); ?></h1>
 					</header> <!-- end article header -->
 				</div>
