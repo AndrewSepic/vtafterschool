@@ -146,7 +146,7 @@ a.button
 /*********************
 /* H1, H2, H3, H4, H5 P STYLES
 /*********************
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5
+h1, .h1, h2, .h2, h3, .h3, .h4, h4, h5, .h5
   font-family: $headingStack
   font-weight: bold
   color: $blue
@@ -165,11 +165,13 @@ h2, .h2
 h3, .h3
   font-size: 1.5rem
   text-transform: uppercase
-  font-weight: 200
+  font-weight: 600
 
 h4, .h4
+  font-weight: 400
 
 h5, .h5
+  font-weight: 400
 
 p
   line-height: 1.5rem
@@ -185,17 +187,25 @@ ul.check
     margin-bottom: .25rem
 
 blockquote
-  font-size: 1.2rem
+  font-size: 1.5rem
   font-weight: 300
   font-style: italic
   margin: 0 0 2rem
   position: relative
-  &:after, &:before
-    content: "\0022"
-    position: absolute
-    font-size: 1.5rem
-  &:before
-    left: 0
+  border-left: 0
+  p
+    color: #868686
+    position: relative
+    &:after, &:before
+      content: "\0022"
+      position: absolute
+      font-size: 1.5rem
+    &:before
+      left: -15px
+  cite
+    font-size: 1rem
+    color: #515151
+
 hr
   width: 70%
   margin: 3rem auto
@@ -318,7 +328,7 @@ select
   &.donate a
     background-color: $orange !important
     border-bottom: 4px solid $orange !important
-    padding: 0 20px !important
+    padding: 0 30px !important
     color: #fff !important
     &:hover
       transition: all .5s ease-in-out
@@ -358,6 +368,24 @@ select
       background-color: transparent
       color: $teal
 
+
+// SIDEBAR
+.sidebar
+  div.widget
+    border-bottom: 1px solid #89aebd
+    padding-bottom: 1rem
+    margin-bottom: 1rem
+    h4.widgettitle
+      text-transform: uppercase
+      color: $teal
+      font-weight: bold
+      font-size: 1.25rem
+  .widget_categories
+    ul li.cat-item a
+      color: $blue
+      font-weight: bold
+      &:hover
+        text-decoration: underline
 
 
 /*********************
@@ -459,8 +487,12 @@ body.home
     .post
       color: #192f5a
       h2
-        font-size: 2rem
+        font-size: 1.75rem
         font-weight: 400
+        line-height: 2.1rem
+        margin-top: .5rem
+        &:hover
+          text-decoration: underline
       .cat
         text-transform: uppercase
         color: $teal
@@ -469,6 +501,8 @@ body.home
         font-weight: 500
         padding-bottom: 1rem
         display: block
+      p
+        margin-bottom: 0
 
 /*********************
 /* PAGE TEMPLATE
@@ -629,11 +663,7 @@ body.page-template-template-impact
     background-color: $darkblue
     .top-footer
       color: #FFF
-      .newsletter:hover
-        i.fi-arrow-right:before
-          padding-left: 1rem
-        i.fi-arrow-right
-          margin-right: 0
+      .newsletter
       img.graphic
         height: 107px
         float: left
@@ -648,8 +678,11 @@ body.page-template-template-impact
         font-size: 2rem
         margin-left: 1rem
         margin-right: 1rem
-      .button
+      .button.footer
         margin: 2rem 2rem 2rem 0
+        &:hover
+          background-color: $darkblue
+          color: #fff
       .social
         a
           float: right

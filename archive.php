@@ -42,7 +42,11 @@ get_header(); ?>
 
 				</main> <!-- end #main -->
 
-				<?php get_sidebar(); ?>
+				<?php if ( is_active_sidebar( 'blog' ) ) { ?>
+						<div id="blogsidebar" class="sidebar small-12 medium-4 large-3 cell" role="complementary">
+								<?php dynamic_sidebar('blog'); ?>
+						</div>
+				<?php } ?>
 
 		    </div> <!-- end #inner-content -->
 

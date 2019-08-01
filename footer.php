@@ -17,7 +17,7 @@
       						<div class="small-12 medium-8 large-8 cell newsletter">
                       <img class="graphic" src="<?php echo get_template_directory_uri();?>/assets/images/vtafter_graphic_mark.svg" alt="Vermont Afterschool Newsletter"/>
                     	<h4> Join Our Newsletter <i class="fi-arrow-right"></i></h4>
-                      <a class="button" data-open="emailsignup">Sign Up!</a>
+                      <a class="button footer" data-open="emailsignup">Sign Up!</a>
       	    			</div>
 
                   <div class="small-12 medium-4 large-3 cell social">

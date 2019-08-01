@@ -7,35 +7,51 @@
  * It is used to display a page when nothing more specific matches a query.
  */
 
-get_header(); ?>
+ get_header(); ?>
 
-	<div class="content">
+ 	<div class="content">
+ 		<div class="page-header">
+ 			<div class="grid-container">
+ 				<div class="grid-x grid-margin-x grid-padding-x">
+ 					<header class="article-header">
+ 						<h1 class="page-title">Blog</h1>
+ 					<?php the_archive_description('<div class="taxonomy-description">', '</div>');?>
+ 					</header> <!-- end article header -->
+ 				</div>
+ 			</div>
+ 		</div>
 
-		<div class="inner-content grid-x grid-margin-x grid-padding-x">
+ 		<div class="grid-container">
 
-		    <main class="main small-12 medium-8 large-8 cell" role="main">
+ 			<div class="inner-content grid-x grid-margin-x grid-padding-x">
 
-			    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+ 			    <main class="main small-12 medium-8 large-8 cell" role="main">
 
-					<!-- To see additional archive styles, visit the /parts directory -->
-					<?php get_template_part( 'parts/loop', 'archive-grid' ); ?>
+ 			    	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-				<?php endwhile; ?>
+ 						<!-- To see additional archive styles, visit the /parts directory -->
+ 						<?php  get_template_part( 'parts/loop', 'archive' ); ?>
 
-					<?php joints_page_navi(); ?>
-					
-				<?php else : ?>
+ 					<?php endwhile; ?>
 
-					<?php get_template_part( 'parts/content', 'missing' ); ?>
+ 						<?php joints_page_navi(); ?>
 
-				<?php endif; ?>
+ 					<?php else : ?>
 
-		    </main> <!-- end #main -->
+ 						<?php get_template_part( 'parts/content', 'missing' ); ?>
 
-		    <?php get_sidebar(); ?>
+ 					<?php endif; ?>
 
-		</div> <!-- end #inner-content -->
+ 				</main> <!-- end #main -->
 
-	</div> <!-- end #content -->
+				<?php if ( is_active_sidebar( 'blog' ) ) { ?>
+	    			<div id="blogsidebar" class="sidebar small-12 medium-4 large-3 cell" role="complementary">
+	        			<?php dynamic_sidebar('blog'); ?>
+	    			</div>
+				<?php } ?>
+				
+ 		    </div> <!-- end #inner-content -->
 
-<?php get_footer(); ?>
+ 	</div> <!-- end #content -->
+
+ <?php get_footer(); ?>

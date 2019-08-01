@@ -77,36 +77,40 @@ get_header(); ?>
 							<div class="grid-x grid-padding-x grid-margin-x noteworthy">
 								<div class="cell small-12 medium-12 large-12 header">
 									<h5>Noteworthy</h5>
-									<a class="pagination">View All Posts &raquo;</a>
+									<a class="pagination" href="/blog">View All Posts &raquo;</a>
+								</div>
+
+								<!--- Posts Begin -->
+								<?php
+
+									 $args = array('posts_per_page' => 3,);
+									 $homepage_posts = new WP_Query($args);
+
+									 if($homepage_posts->have_posts()) :
+											while($homepage_posts->have_posts()) :
+												 $homepage_posts->the_post();
+								?>
+								<div class="cell small-12 medium-4 large-4 post">
+									<span class="cat"><?php echo get_the_category_list(', ');?></span>
+									<a href="<?php the_permalink();?>">
+										<h2><?php the_title() ?></h2>
+									</a>
+									<span class="meta">By <?php echo get_the_author_posts_link();?></span>
+									<?php the_excerpt()?>
+									<a class="readmore" href="<?php the_permalink();?>">Read More...</a>
 								</div>
 
 
-									<div class="cell small-12 medium-4 large-4 post">
-										<span class="cat">Opinion</span>
-										<h2>Post Title With Two Lines</h2>
-										<span class="meta">By Author, Position</span>
-										<?php // get_template_part( 'parts/content', 'byline' ); ?>
-										<p class="excerpt">It was recently public radio fundraising time here in Vermont. Im a big VErmont Public Radio fan and have been knonw to stay tuned through their repeated membership pitches.</p>
-										<?php //the_content('<button class="tiny">' . __( 'Read more...', 'jointswp' ) . '</button>'); ?>
-									</div>
+								<?php
+											endwhile;
+									 else:
+								?>
 
-									<div class="cell small-12 medium-4 large-4 post">
-										<span class="cat">News</span>
-										<h2>Call for Youth Art</h2>
-										<span class="meta">By Author, Position</span>
-										<?php // get_template_part( 'parts/content', 'byline' ); ?>
-										<p class="excerpt">It was recently public radio fundraising time here in Vermont. Im a big VErmont Public Radio fan and have been knonw to stay tuned through their repeated membership pitches.</p>
-										<?php //the_content('<button class="tiny">' . __( 'Read more...', 'jointswp' ) . '</button>'); ?>
-									</div>
+											Oops, there are no posts.
 
-									<div class="cell small-12 medium-4 large-4 post">
-										<span class="cat">Data Digest</span>
-										<h2>Weapons & School Violence</h2>
-										<span class="meta">By Author, Position</span>
-										<?php // get_template_part( 'parts/content', 'byline' ); ?>
-										<p class="excerpt">It was recently public radio fundraising time here in Vermont. Im a big VErmont Public Radio fan and have been knonw to stay tuned through their repeated membership pitches.</p>
-										<?php //the_content('<button class="tiny">' . __( 'Read more...', 'jointswp' ) . '</button>'); ?>
-									</div>
+								<?php
+							endif; ?>
+
 							</div>
 						</div> <!-- end grid-container -->
 					</div> <!-- end .ntnWrapper -->
