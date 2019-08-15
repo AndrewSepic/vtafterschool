@@ -266,7 +266,7 @@ select
           color: $bodytext
           padding: .5rem .25rem
           font-size: .9rem
-        li#menu-item-55
+        li#menu-item-6169
           margin-top: .55rem
         li.search
           margin-top: .25rem
@@ -321,18 +321,32 @@ select
         a
           background-color: $orange
           color: #fff
+  a.donate
+    background-color: $orange
+    border-bottom: 4px solid $orange
+    padding: 0 30px
+    color: #fff
+    float: right
+    height: 40px
+    line-height: 40px
+    font-weight: bold
+    text-transform: uppercase
+    &:hover
+      transition: all .5s ease-in-out
+      background-color: #f58024
+
 
 /* Mega Nav */
 #mega-menu-wrap-main-nav #mega-menu-main-nav > li.mega-menu-item
   margin: 0 20px 0 20px
-  &.donate a
+  &.donate
     background-color: $orange !important
     border-bottom: 4px solid $orange !important
-    padding: 0 30px !important
-    color: #fff !important
+    a
+      color: #fff !important
     &:hover
       transition: all .5s ease-in-out
-      background-color: #f58024 !important
+      background-color: #f58024
   & > ul.mega-sub-menu
     border-bottom: 1px solid #D1D1D1
   ul.mega-sub-menu li.highlight

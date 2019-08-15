@@ -16,7 +16,7 @@
 
       						<div class="small-12 medium-8 large-8 cell newsletter">
                       <img class="graphic" src="<?php echo get_template_directory_uri();?>/assets/images/vtafter_graphic_mark.svg" alt="Vermont Afterschool Newsletter"/>
-                    	<h4> Join Our Newsletter <i class="fi-arrow-right"></i></h4>
+                    	<h4> Subscribe to Our Newsletter <i class="fi-arrow-right"></i></h4>
                       <a class="button footer" data-open="emailsignup">Sign Up!</a>
       	    			</div>
 
@@ -40,33 +40,11 @@
                     </p>
                   </div>
 
-                  <div class="small-12 medium-6 large-3 cell">
+                  <div class="small-12 medium-6 large-6 cell">
                     <h3><?php the_field('second_column_title', 'option'); ?></h3>
                     <p>
                       <?php the_field('contact_information', 'option'); ?>
                     </p>
-                  </div>
-
-                  <div class="small-12 medium-6 large-3 cell">
-                    <h3><?php the_field('third_column_title', 'option'); ?></h3>
-                    <ul class="quickLinks">
-                      <?php
-                      // check if the repeater field has rows of data
-                        if( have_rows('quick_links', 'option') ):
-
-                          // loop through the rows of data
-                            while ( have_rows('quick_links', 'option') ) : the_row();   ?>
-
-                              <li> <a href="<?php the_sub_field('quick_link_link', 'option')?>"><?php the_sub_field('quick_link_text', 'option');?></a></li>   <?php
-
-                            endwhile;
-
-                        else :
-                            // no rows found
-                        endif;
-                        ?>
-                    </ul>
-
                   </div>
 
                 <div class="small-12 medium-12 large-12 cell copy">

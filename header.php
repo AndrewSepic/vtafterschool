@@ -66,6 +66,7 @@
 
             <div class="navWrap">
               <div class="grid-container">
+                <a class="donate hide-for-small-only" href="<?php echo home_url(); ?>/about/donate">Join/Give</a>
 
     					 <!-- This navs will be applied to the topbar, above all content
     						  To see additional nav styles, visit the /parts directory -->

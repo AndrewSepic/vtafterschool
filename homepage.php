@@ -63,7 +63,7 @@ get_header(); ?>
 								<div class="cell small-12 medium-6 large-5 large-offset-1">
 									<h2><?php the_field('block_title_3', 'options');?></h2>
 									<p><?php the_field('block_content_3', 'options');?></p>
-									<a href="<?php the_field('button_link_1', 'options');?>" class="button orange"><?php the_field('button_text_2', 'options');?></a> <a href="<?php the_field('button_link_2', 'options');?>" class="button"><?php the_field('button_text_2', 'options');?></a>
+									<a href="<?php the_field('button_link_1', 'options');?>" class="button orange"><?php the_field('button_text_1', 'options');?></a> <a href="<?php the_field('button_link_2', 'options');?>" class="button"><?php the_field('button_text_2', 'options');?></a>
 								</div>
 								<div class="cell small-12 medium-6 large-5">
 									<img src="<?php echo get_template_directory_uri();?>/assets/images/logos.jpg" alt="collaborators"/>
