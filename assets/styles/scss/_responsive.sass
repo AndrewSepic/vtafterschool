@@ -11,6 +11,11 @@
 
 // Tablet Devices (640 - 1024px)
 @include breakpoint(medium only)
+  // Header
+  .header
+    .headerMain
+      img.tagline
+        padding: 0 0 0 1rem    
   // Impact Page
   body.page-template-template-impact
     .dataPoints .cell
@@ -28,6 +33,22 @@
         width: 50%
       .dataSummary
         width: 45%
+  .orbit
+    height: 250px
+    figure
+      figcaption
+        padding: 1rem 2rem
+        span.intro
+          font-size: 1rem
+          text-transform: uppercase
+          font-weight: 500
+        span.outro
+          font-size: 1.25rem
+        h4
+          color: #fff
+          font-weight: 700
+          font-size: 1.5rem
+          line-height: 2.1rem
 
 // Mobile Devices (0 < 640px)
 @include breakpoint(small only)
@@ -92,6 +113,26 @@
         margin-top: 10rem
         h4
           font-size: 3.5rem
+    .orbit
+      height: 250px
+      figure
+        position: relative
+        figcaption
+          position: absolute
+          background: #156d8c
+          padding: 1rem 2rem
+          bottom: -146px
+          span.intro
+            font-size: 1rem
+            text-transform: uppercase
+            font-weight: 500
+          span.outro
+            font-size: 1rem
+          h4
+            color: #fff
+            font-weight: 700
+            font-size: 1.5rem
+            line-height: 2.1rem
     .home-1 h2, .home-2 h1, .home-3 h1
       line-height: 2.4rem
       padding-bottom: 1rem

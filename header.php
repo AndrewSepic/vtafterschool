@@ -50,7 +50,7 @@
            <div class="headerMain grid-x">
 
 
-               <div class="cell small-12 large-8">
+               <div class="cell small-12 medium-6 large-8">
                   <a href="<?php echo home_url(); ?>"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/vtafter_logo.svg" alt="<?php echo get_bloginfo( 'name' );?>"/></a>
                   <img class="tagline" src="<?php echo get_template_directory_uri(); ?>/assets/images/VTA_tag.png" alt="Strengthening Programs & Empowering Youth"/>
                </div>
