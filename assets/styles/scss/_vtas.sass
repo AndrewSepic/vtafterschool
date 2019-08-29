@@ -389,17 +389,21 @@ select
     border-bottom: 1px solid #89aebd
     padding-bottom: 1rem
     margin-bottom: 1rem
-    h4.widgettitle
-      text-transform: uppercase
-      color: $teal
-      font-weight: bold
-      font-size: 1.25rem
+  h4.widgettitle
+    text-transform: uppercase
+    color: $teal
+    font-weight: bold
+    font-size: 1.25rem
   .widget_categories
     ul li.cat-item a
       color: $blue
       font-weight: bold
       &:hover
         text-decoration: underline
+  #sidebar-images, .sidebarACF
+    padding: 1rem 0
+    border-bottom: 1px solid #89aebd
+    margin-bottom: 1rem
 
 
 /*********************
@@ -436,7 +440,7 @@ body.home
 // Orbit
 .orbit
   width: 100%
-  height: 450px
+  height: 550px
   figcaption
     background: transparent
     padding: 2rem 4rem
@@ -452,6 +456,18 @@ body.home
       font-weight: 700
       font-size: 4rem
       line-height: 3.5rem
+  .orbit-previous, .orbit-next
+    font-size: 2rem
+  .orbit-previous
+    left: 2rem
+  .orbit-next
+    right: 2rem
+  nav.orbit-bullets
+    position: absolute
+    bottom: -45px
+    width: 100%
+    z-index: 200
+    cursor: pointer
 
 
 .home-1, .home-2, .home-3
@@ -483,6 +499,8 @@ body.home
     p
       font-size: 1.2rem
       line-height: 1.8rem
+      position: relative
+      z-index: 100
 
 .secondWrapper
   .arrow
@@ -622,6 +640,9 @@ body.page-template-vtot
 body.page-template-template-conference
   .page-header
     margin-bottom: 0
+    background-color: $blue
+    h1, .confLead
+      color: #fff
   .confNav
     margin-bottom: 2rem
     .menu-conference-nav-container
@@ -767,4 +788,3 @@ body.page-template-template-impact
         color: $blue
         &:hover
           opacity: .75
-

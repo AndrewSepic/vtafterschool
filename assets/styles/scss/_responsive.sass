@@ -7,7 +7,9 @@
 @include breakpoint(xlarge)
 
 // Tablet Devices (1024px - 1200px)
-@include breakpoint(large)
+@include breakpoint(large only)
+  .orbit
+    height: 410px
 
 // Tablet Devices (640 - 1024px)
 @include breakpoint(medium only)
@@ -15,7 +17,7 @@
   .header
     .headerMain
       img.tagline
-        padding: 0 0 0 1rem    
+        padding: 0 0 0 1rem
   // Impact Page
   body.page-template-template-impact
     .dataPoints .cell
@@ -105,6 +107,8 @@
       line-height: 2.2rem
   // Homepage
   body.home
+    footer
+      margin-top: 0
     #hero
       height: 350px
       background-position: 82% 20%
@@ -114,14 +118,20 @@
         h4
           font-size: 3.5rem
     .orbit
-      height: 250px
+      height: 230px
+      .orbit-previous
+        left: 1rem
+        top: 45%
+      .orbit-next
+        right: 1rem
+        top: 45%
       figure
         position: relative
         figcaption
           position: absolute
           background: #156d8c
           padding: 1rem 2rem
-          bottom: -146px
+          bottom: -99px
           span.intro
             font-size: 1rem
             text-transform: uppercase
@@ -194,8 +204,3 @@
           padding-top: 0
           margin-top: -1rem
           display: inline-block
-
-
-
-
-

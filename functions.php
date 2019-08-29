@@ -41,7 +41,7 @@ require_once(get_template_directory().'/functions/translation/translation.php');
 // require_once(get_template_directory().'/functions/custom-post-type.php');
 
 // Customize the WordPress login menu
-// require_once(get_template_directory().'/functions/login.php');
+require_once(get_template_directory().'/functions/login.php');
 
 // Customize the WordPress admin
 // require_once(get_template_directory().'/functions/admin.php');
@@ -71,6 +71,14 @@ if( function_exists('acf_add_options_page') ) {
 	acf_add_options_sub_page(array(
 		'page_title' 	=> 'VTAS Footer Settings',
 		'menu_title'	=> 'Footer',
+		'parent_slug'	=> 'vtas-site-options',
+		'position'	=> false,
+		'icon_url'	=> false,
+	));
+
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'VTAS Sidebar Settings',
+		'menu_title'	=> 'Sidebar',
 		'parent_slug'	=> 'vtas-site-options',
 		'position'	=> false,
 		'icon_url'	=> false,

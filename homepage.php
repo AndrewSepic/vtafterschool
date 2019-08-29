@@ -37,7 +37,11 @@ get_header(); ?>
 		}
 		else {
 			//echo 'We need a slideshow folks!';?>
-			<div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromRight:fade-in; data-auto-play:true; data-timer-delay:7000; data-infinite-wrap:true;">
+			<div class="orbit" role="region" aria-label="Vermont Afterschool Slideshow" data-orbit data-options="animInFromRight:fade-in; data-auto-play:true; data-timer-delay:7000; data-infinite-wrap:true;">
+				<button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
+				<button class="orbit-next" aria-label="next" tabindex="0"><span class="show-for-sr">Next Slide</span>▶</button>
+
+				<div class="orbit-wrapper">
 
 				<ul class="orbit-container">
 
@@ -67,6 +71,12 @@ get_header(); ?>
 				<?php endwhile;?>
 				</ul>
 			</div>
+			<nav class="orbit-bullets">
+				<button class="is-active" data-slide="0"><span class="show-for-sr">Core Initiative: Youth Resiliency</span></button>
+				<button data-slide="1"><span class="show-for-sr">Core Initiative: Quality Improvement</span></button>
+				<button data-slide="2"><span class="show-for-sr">Core Initiative: VT9to26 Coalition</span></button>
+			</nav>
+		</div>
 			<?php
 		}
 		?>
@@ -114,7 +124,8 @@ get_header(); ?>
 									<a href="<?php the_field('button_link_1', 'options');?>" class="button orange"><?php the_field('button_text_1', 'options');?></a> <a href="<?php the_field('button_link_2', 'options');?>" class="button"><?php the_field('button_text_2', 'options');?></a>
 								</div>
 								<div class="cell small-12 medium-6 large-5">
-									<img src="<?php echo get_template_directory_uri();?>/assets/images/logos.jpg" alt="collaborators"/>
+									<img class="show-for-small-only" src="<?php echo get_template_directory_uri();?>/assets/images/Collab_logos_tablet.jpg" alt="collaborators"/>
+									<img class="hide-for-small-only" src="<?php echo get_template_directory_uri();?>/assets/images/Collab_logos_fullscreen.jpg" alt="collaborators"/>
 								</div>
 							</div>
 						</div>
