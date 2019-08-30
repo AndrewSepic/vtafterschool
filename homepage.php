@@ -71,11 +71,6 @@ get_header(); ?>
 				<?php endwhile;?>
 				</ul>
 			</div>
-			<nav class="orbit-bullets">
-				<button class="is-active" data-slide="0"><span class="show-for-sr">Core Initiative: Youth Resiliency</span></button>
-				<button data-slide="1"><span class="show-for-sr">Core Initiative: Quality Improvement</span></button>
-				<button data-slide="2"><span class="show-for-sr">Core Initiative: VT9to26 Coalition</span></button>
-			</nav>
 		</div>
 			<?php
 		}
@@ -136,7 +131,7 @@ get_header(); ?>
 							<div class="grid-x grid-padding-x grid-margin-x noteworthy">
 								<div class="cell small-12 medium-12 large-12 header">
 									<h5>Noteworthy</h5>
-									<a class="pagination" href="/blog">View All Posts &raquo;</a>
+									<a class="pagination" href="<?php site_url();?>/blog">View All Posts &raquo;</a>
 								</div>
 
 								<!--- Posts Begin -->
@@ -154,7 +149,7 @@ get_header(); ?>
 									<a href="<?php the_permalink();?>">
 										<h2><?php the_title() ?></h2>
 									</a>
-									<span class="meta">By <?php echo get_the_author_posts_link();?></span>
+									<!--<span class="meta">By <?php //echo get_the_author_posts_link();?></span> -->
 									<?php the_excerpt()?>
 									<a class="readmore" href="<?php the_permalink();?>">Read More...</a>
 								</div>
