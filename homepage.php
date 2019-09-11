@@ -120,7 +120,7 @@ get_header(); ?>
 								</div>
 								<div class="cell small-12 medium-6 large-5">
 									<img class="show-for-small-only" src="<?php echo get_template_directory_uri();?>/assets/images/Collab_logos_tablet.jpg" alt="collaborators"/>
-									<img class="hide-for-small-only" src="<?php echo get_template_directory_uri();?>/assets/images/Collab_logos_fullscreen.jpg" alt="collaborators"/>
+									<img class="hide-for-small-only" src="<?php echo get_template_directory_uri();?>/assets/images/Collab_logos_full_screen.jpg" alt="collaborators"/>
 								</div>
 							</div>
 						</div>
@@ -151,7 +151,6 @@ get_header(); ?>
 									</a>
 									<!--<span class="meta">By <?php //echo get_the_author_posts_link();?></span> -->
 									<?php the_excerpt()?>
-									<a class="readmore" href="<?php the_permalink();?>">Read More...</a>
 								</div>
 
 
