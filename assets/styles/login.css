@@ -13,7 +13,6 @@ For more info, check out the codex:
 http://codex.wordpress.org/Creating_Admin_Themes
 
 ******************************************************************/
-/* line 26, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/login.scss */
 .login h1 a {
   background: url(../images/login-logo.png) no-repeat top center;
   width: 326px;
@@ -24,5 +23,3 @@ http://codex.wordpress.org/Creating_Admin_Themes
   display: block;
   background-size: contain;
 }
-
-/*# sourceMappingURL=login.css.map */

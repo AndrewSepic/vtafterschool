@@ -6,7 +6,7 @@ Template Name: Homepage
 get_header(); ?>
 
 	<div class="content">
-
+		<!--  -->
 		<div class="grid-x grid-margin-x heroWrapper">
 
 			<?php
