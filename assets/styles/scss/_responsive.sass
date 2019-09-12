@@ -9,7 +9,7 @@
 // Tablet Devices (1024px - 1200px)
 @include breakpoint(large only)
   .orbit
-    height: 410px
+    height: 30%
 
 // Tablet Devices (640 - 1024px)
 @include breakpoint(medium only)
@@ -36,7 +36,7 @@
       .dataSummary
         width: 45%
   .orbit
-    height: 250px
+    height: 25%
     figure
       figcaption
         padding: 1rem 2rem
@@ -54,6 +54,10 @@
 
 // Mobile Devices (0 < 640px)
 @include breakpoint(small only)
+  body.blog
+    article
+      padding: 2rem 0 1rem
+      border-bottom: 1px solid #d8d8d8
   .grid-container
     padding: 0 1.5rem
   // Header
@@ -194,8 +198,10 @@
         a.button
           margin: 0 10% 0
           width: 80%
+        .button.footer
+          margin: .5rem 2rem 2rem 0
       .cell.social
-        padding: 1rem
+        padding: 0 1rem 2rem
         a
           float: left
         span.circle

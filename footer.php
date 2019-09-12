@@ -74,9 +74,8 @@
               	<label for="mce-LNAME">Last Name  <span class="asterisk">*</span></label><input type="text" value="" name="LNAME" class="required" id="mce-LNAME"></div>
               <div class="mc-field-group">
               	<label for="mce-MMERGE3">Organization Affiliation  <span class="asterisk">*</span></label><input type="text" value="" name="MMERGE3" class="required" id="mce-MMERGE3"></div>
+              <p><strong>Which topics would you like to hear about?</strong></p>
               <div class="mc-field-group input-group">
-
-              Which topics would you like to hear about?
               <ul>
                	<li><input type="checkbox" value="4" name="group[4473][4]" id="mce-group[4473]-4473-0"><label for="mce-group[4473]-4473-0">General News</label></li>
                	<li><input type="checkbox" value="1" name="group[4473][1]" id="mce-group[4473]-4473-1"><label for="mce-group[4473]-4473-1">Advocacy and Action Alerts</label></li>

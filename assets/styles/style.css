@@ -10043,7 +10043,7 @@ body.home main {
 /* line 441, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
 .orbit {
   width: 100%;
-  height: 545px;
+  height: 35%;
 }
 
 /* line 444, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
@@ -10466,30 +10466,38 @@ body.page-template-template-impact .dataPoints .cell:nth-of-type(3) .dataSummary
 }
 
 /********************* */
+/* Mailchimp */
+/********************* */
+/* line 717, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
+.input-group ul {
+  list-style-type: none;
+}
+
+/********************* */
 /* FOOTER */
 /********************* */
-/* line 716, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 724, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer {
   margin-top: 0;
 }
 
-/* line 718, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 726, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .footerTopWrap {
   background-color: #004368;
 }
 
-/* line 720, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 728, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .footerTopWrap .top-footer {
   color: #FFF;
 }
 
-/* line 723, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 731, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .footerTopWrap .top-footer img.graphic {
   height: 107px;
   float: left;
 }
 
-/* line 726, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 734, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .footerTopWrap .top-footer h4 {
   color: #fff;
   float: left;
@@ -10499,31 +10507,31 @@ body.page-template-template-impact .dataPoints .cell:nth-of-type(3) .dataSummary
   margin-bottom: 0;
 }
 
-/* line 733, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 741, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .footerTopWrap .top-footer i.fi-arrow-right {
   font-size: 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
-/* line 737, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 745, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .footerTopWrap .top-footer .button.footer {
   margin: 2rem 2rem 2rem 0;
 }
 
-/* line 739, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 747, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .footerTopWrap .top-footer .button.footer:hover {
   background-color: #004368;
   color: #fff;
 }
 
-/* line 743, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 751, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .footerTopWrap .top-footer .social a {
   float: right;
   padding-right: 1rem;
 }
 
-/* line 746, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 754, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .footerTopWrap .top-footer .social i.fi-social-facebook {
   float: left;
   height: 40px;
@@ -10532,12 +10540,12 @@ body.page-template-template-impact .dataPoints .cell:nth-of-type(3) .dataSummary
   padding-top: 1rem;
 }
 
-/* line 752, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 760, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .footerTopWrap .top-footer .social i.fi-social-facebook:hover {
   opacity: .75;
 }
 
-/* line 754, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 762, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .footerTopWrap .top-footer .social span.circle {
   background: #fff;
   border-radius: 50px;
@@ -10550,7 +10558,7 @@ body.page-template-template-impact .dataPoints .cell:nth-of-type(3) .dataSummary
   margin-top: 2rem;
 }
 
-/* line 764, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 772, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .footerTopWrap .top-footer .social span.circle i.fi-social-twitter {
   color: #004368;
   font-size: 2.2rem;
@@ -10560,42 +10568,42 @@ body.page-template-template-impact .dataPoints .cell:nth-of-type(3) .dataSummary
   left: 0px;
 }
 
-/* line 771, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 779, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .footerTopWrap .top-footer .social span.circle:hover {
   opacity: .75;
 }
 
-/* line 774, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 782, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .bottom-footer {
   margin-top: 2.5rem;
   font-size: .85rem;
   color: #192f5a;
 }
 
-/* line 778, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 786, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .bottom-footer h3 {
   color: #004368;
   font-size: 1.5rem;
 }
 
-/* line 781, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 789, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .bottom-footer p {
   line-height: 1.2rem;
 }
 
-/* line 783, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 791, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .bottom-footer .quickLinks {
   list-style-type: none;
   text-transform: uppercase;
   margin-left: 0;
 }
 
-/* line 787, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 795, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .bottom-footer .quickLinks li a {
   color: #1a6e8e;
 }
 
-/* line 789, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
+/* line 797, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_vtas.sass */
 .footer .bottom-footer .quickLinks li a:hover {
   opacity: .75;
 }
@@ -10606,7 +10614,7 @@ body.page-template-template-impact .dataPoints .cell:nth-of-type(3) .dataSummary
 @media screen and (min-width: 64em) and (max-width: 74.99875em) {
   /* line 11, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   .orbit {
-    height: 410px;
+    height: 30%;
   }
 }
 
@@ -10638,7 +10646,7 @@ body.page-template-template-impact .dataPoints .cell:nth-of-type(3) .dataSummary
   }
   /* line 38, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   .orbit {
-    height: 250px;
+    height: 25%;
   }
   /* line 41, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   .orbit figure figcaption {
@@ -10664,233 +10672,242 @@ body.page-template-template-impact .dataPoints .cell:nth-of-type(3) .dataSummary
 }
 
 @media screen and (max-width: 39.99875em) {
-  /* line 57, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 58, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  body.blog article {
+    padding: 2rem 0 1rem;
+    border-bottom: 1px solid #d8d8d8;
+  }
+  /* line 61, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   .grid-container {
     padding: 0 1.5rem;
   }
-  /* line 62, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 66, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   .header .headerMain .logo {
     padding: 0;
   }
-  /* line 64, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 68, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   .header .headerMain img.tagline {
     padding-top: 2.5rem;
   }
-  /* line 66, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 70, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   .header .headerMain .utility {
     margin-top: 0;
   }
-  /* line 68, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 72, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   .header .headerMain .utility ul#utility-links {
     float: left;
   }
-  /* line 70, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 74, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   .header .navWrap .grid-container {
     padding: 0;
   }
-  /* line 72, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 76, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   .header .navWrap .grid-container #mega-menu-wrap-main-nav #mega-menu-main-nav > li.mega-menu-item {
     margin: 0;
   }
-  /* line 74, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 78, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   .header .navWrap .grid-container #mega-menu-wrap-main-nav #mega-menu-main-nav > li.mega-menu-item > ul.mega-sub-menu > li.mega-menu-row .mega-menu-column > ul.mega-sub-menu > li.mega-menu-item {
     padding: 20px;
   }
-  /* line 77, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 81, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   div.page-header {
     padding: 1rem 0;
   }
-  /* line 79, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 83, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   div.page-header .article-header {
     margin: 1rem 0;
   }
-  /* line 81, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 85, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   div.page-header .article-header .introText {
     margin: 1rem;
     width: auto;
   }
-  /* line 84, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 88, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   div.page-header .article-header .introText p {
     font-size: 1.1rem;
     line-height: 1.4rem;
   }
-  /* line 87, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 91, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   div.page-header .article-header .introText .anchors a {
     line-height: 1.65rem;
   }
-  /* line 89, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 93, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   div.page-header h1.page-title {
     font-size: 2rem;
     line-height: 2.2rem;
   }
-  /* line 94, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 98, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   body.category article {
     padding: .5rem 0;
   }
-  /* line 96, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 100, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   body.category article h2 {
     font-size: 1.5rem;
     line-height: 1.9rem;
   }
-  /* line 99, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 103, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   body.category img.wp-post-image {
     margin-bottom: 1rem;
   }
-  /* line 103, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 107, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   body.single .page-header {
     margin-bottom: 1rem;
   }
-  /* line 105, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 109, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   body.single h1.single-title {
     font-size: 1.75rem;
     line-height: 2.2rem;
   }
-  /* line 110, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 114, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   body.home footer {
     margin-top: 0;
   }
-  /* line 112, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 116, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   body.home #hero {
     height: 350px;
     background-position: 82% 20%;
   }
-  /* line 115, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 119, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   body.home #hero #heroTitle {
     position: relative;
     margin-top: 10rem;
   }
-  /* line 118, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 122, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   body.home #hero #heroTitle h4 {
     font-size: 3.5rem;
   }
-  /* line 120, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 124, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   body.home .orbit {
     height: 230px;
   }
-  /* line 122, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 126, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   body.home .orbit .orbit-previous {
     left: 1rem;
     top: 45%;
   }
-  /* line 125, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 129, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   body.home .orbit .orbit-next {
     right: 1rem;
     top: 45%;
   }
-  /* line 128, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 132, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   body.home .orbit figure {
     position: relative;
   }
-  /* line 130, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 134, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   body.home .orbit figure figcaption {
     position: absolute;
     background: #156d8c;
     padding: 1rem 2rem;
     bottom: -99px;
   }
-  /* line 135, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 139, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   body.home .orbit figure figcaption span.intro {
     font-size: 1rem;
     text-transform: uppercase;
     font-weight: 500;
   }
-  /* line 139, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 143, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   body.home .orbit figure figcaption span.outro {
     font-size: 1rem;
   }
-  /* line 141, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 145, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   body.home .orbit figure figcaption h4 {
     color: #fff;
     font-weight: 700;
     font-size: 1.5rem;
     line-height: 2.1rem;
   }
-  /* line 146, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 150, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   body.home .home-1 h2, body.home .home-2 h1, body.home .home-3 h1 {
     line-height: 2.4rem;
     padding-bottom: 1rem;
   }
-  /* line 149, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 153, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   body.home .secondWrapper .home-2 {
     background-image: none;
   }
-  /* line 151, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 155, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   .pageIntro div.page-header {
     padding: 0;
   }
-  /* line 156, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 160, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   body.page-template-template-impact .dataPoints .cell .bigNumber, body.page-template-template-impact .dataPoints .cell:nth-of-type(3) .bigNumber {
     width: 100%;
     font-size: 25.5vw;
     padding-bottom: 1rem;
     line-height: 25.5vw;
   }
-  /* line 161, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 165, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   body.page-template-template-impact .dataPoints .cell .dataSummary, body.page-template-template-impact .dataPoints .cell:nth-of-type(3) .dataSummary {
     width: 100%;
     text-align: center;
   }
-  /* line 165, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 169, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   h3.confLead {
     font-size: 1rem;
   }
-  /* line 168, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 172, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   ul#conference-nav li {
     width: 100%;
   }
-  /* line 171, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 175, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   body.page-template-vtot div.vtot {
     padding-top: .5rem;
     border-top: 2px solid white;
   }
-  /* line 174, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 178, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   body.page-template-vtot div.vtot img {
     width: 100%;
   }
-  /* line 177, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 181, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   .stories.grid-x.grid-padding-x {
     padding: 1rem;
     margin-top: 2rem;
   }
-  /* line 180, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 184, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   .stories.grid-x.grid-padding-x .cell.story {
     padding: 1rem;
     margin-top: 1rem;
   }
-  /* line 184, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 188, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   .footer {
     margin-top: 1rem;
   }
-  /* line 188, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 192, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   .footer .footerTopWrap .top-footer h4 {
     padding: 1rem;
   }
-  /* line 190, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 194, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   .footer .footerTopWrap .top-footer i.fi-arrow-right::before {
     transform: rotate(90deg);
   }
-  /* line 192, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 196, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   .footer .footerTopWrap .top-footer img.graphic {
     display: none;
   }
-  /* line 194, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 198, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   .footer .footerTopWrap .top-footer a.button {
     margin: 0 10% 0;
     width: 80%;
   }
-  /* line 197, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
-  .footer .footerTopWrap .cell.social {
-    padding: 1rem;
+  /* line 201, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  .footer .footerTopWrap .top-footer .button.footer {
+    margin: .5rem 2rem 2rem 0;
   }
-  /* line 199, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 203, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  .footer .footerTopWrap .cell.social {
+    padding: 0 1rem 2rem;
+  }
+  /* line 205, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   .footer .footerTopWrap .cell.social a {
     float: left;
   }
-  /* line 201, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 207, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   .footer .footerTopWrap .cell.social span.circle {
     margin-top: 0;
   }
-  /* line 203, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
+  /* line 209, ../../../../../../../../../../../../../Users/andrewsepic/vtafterschool/assets/styles/scss/_responsive.sass */
   .footer .footerTopWrap .cell.social i.fi-social-facebook {
     padding-top: 0;
     margin-top: -1rem;
