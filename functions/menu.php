@@ -6,7 +6,8 @@ register_nav_menus(
 		'offcanvas-nav'	=> __( 'The Off-Canvas Menu', 'jointswp' ),	// Off-Canvas nav
 		'footer-links'	=> __( 'Footer Links', 'jointswp' ), // Secondary nav in footer
 		'utility-links' => __( 'Header Utility Links'),	// located to the right side of logo
-		'conference-nav' => __( 'Navigation for Conference page')
+		'conference-nav' => __( 'Navigation for Conference page'), // Conference Nav
+		'vyp-nav' => __( 'Navigation for Vermont Youth Project pages')
 	)
 );
 
@@ -88,6 +89,18 @@ function vtas_conference_nav() {
 		'fallback_cb'		=> ''					// Fallback function
 	));
 } /* End conference nav Menu */
+
+// The Nav for the VYP
+function vyp_nav() {
+	wp_nav_menu(array(
+		//'container'			=> 'false',				// Remove nav container
+		'menu_id'			=> 'vyp-nav',		// Adding custom nav id
+		'menu_class'		=> 'menu',				// Adding custom nav class
+		'theme_location'	=> 'vyp-nav',		// Where it's located in the theme
+		'depth'				=> 0,					// Limit the depth of the nav
+		'fallback_cb'		=> ''					// Fallback function
+	));
+} /* End vyp nav Menu */
 
 /* Add Search Form to Utility Menu */
 add_filter('wp_nav_menu_items', 'add_search_form', 10, 2);
